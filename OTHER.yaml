@@ -1,0 +1,2565 @@
+# 自动生成，请通过拆分脚本更新。
+# 分组：OTHER；节点数：142
+proxies:
+- name: vpngate | Russian Federation | vpn612866585
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn612866585.opengw.net:995?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn600421903
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn600421903.opengw.net:1569?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Armenia | vpn763562980
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn763562980.opengw.net:995?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn558150618
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn558150618.opengw.net:1703?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn701215762
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn701215762.opengw.net:1469?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn725437353
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn725437353.opengw.net:1535?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn524332662
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn524332662.opengw.net:1974?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn198374908
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn198374908.opengw.net:995?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn466796601
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn466796601.opengw.net:1380?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn765049448
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn765049448.opengw.net:1638?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn171380381
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn171380381.opengw.net:1965?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 'vpngate | Croatia (LOCAL Name: Hrvatska) | vpn232859084'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn232859084.opengw.net:443?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn171904549
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn171904549.opengw.net:1721?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn274822504
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn274822504.opengw.net:1657?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | idcrmn2
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@idcrmn2.opengw.net:444?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn605489791
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn605489791.opengw.net:1441?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 'vpngate | Croatia (LOCAL Name: Hrvatska) | vpn499585881'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn499585881.opengw.net:443?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn305517077
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn305517077.opengw.net:1839?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn955946718
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn955946718.opengw.net:1201?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Chile | vpn548414740
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn548414740.opengw.net:1992?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn462957625
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn462957625.opengw.net:1653?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn421481264
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn421481264.opengw.net:1462?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn402443414
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn402443414.opengw.net:1868?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Grenada | diamondgnd
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@diamondgnd.opengw.net:443?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Ukraine | vpn313985146
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn313985146.opengw.net:5555?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn177976718
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn177976718.opengw.net:1280?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn894929051
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn894929051.opengw.net:1622?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn743566583
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn743566583.opengw.net:1775?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn592242922
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn592242922.opengw.net:1513?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn397955876
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn397955876.opengw.net:1938?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn315331153
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn315331153.opengw.net:1622?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn354406831
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn354406831.opengw.net:1783?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Canada | vpn491348575
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn491348575.opengw.net:1697?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn209052080
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn209052080.opengw.net:1576?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Mexico | vpn158297266
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn158297266.opengw.net:995?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Mexico | cetsssa
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@cetsssa.opengw.net:992?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn442264418
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn442264418.opengw.net:1639?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn123075961
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn123075961.opengw.net:1354?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn817441679
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn817441679.opengw.net:1797?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Hungary | vpn273160004
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn273160004.opengw.net:1707?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 'vpngate | Croatia (LOCAL Name: Hrvatska) | vpn132328711'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn132328711.opengw.net:443?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 'vpngate | Croatia (LOCAL Name: Hrvatska) | vpn178522347'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn178522347.opengw.net:443?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 'vpngate | Croatia (LOCAL Name: Hrvatska) | vpn981204829'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn981204829.opengw.net:443?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Argentina | vpn674623436
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn674623436.opengw.net:1409?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn202976802
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn202976802.opengw.net:5555?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn842914014
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn842914014.opengw.net:1329?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn271089328
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn271089328.opengw.net:1315?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Malaysia | vpn667888734
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn667888734.opengw.net:443?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Australia | vpn289936273
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn289936273.opengw.net:1763?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn968104007
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn968104007.opengw.net:1588?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn349783000
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn349783000.opengw.net:1323?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn864131273
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn864131273.opengw.net:995?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 'vpngate | Croatia (LOCAL Name: Hrvatska) | vpn118469396'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn118469396.opengw.net:443?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn902826727
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn902826727.opengw.net:1321?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn432636439
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn432636439.opengw.net:1858?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Mexico | vpn764449825
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn764449825.opengw.net:1412?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn353146232
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn353146232.opengw.net:1995?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United Kingdom | vpn175717635
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn175717635.opengw.net:1287?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn412838930
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn412838930.opengw.net:1229?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn535130688
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn535130688.opengw.net:1563?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn684766837
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn684766837.opengw.net:1857?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn439009803
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn439009803.opengw.net:1614?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn659080135
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn659080135.opengw.net:1521?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn853980609
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn853980609.opengw.net:1313?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn254736373
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn254736373.opengw.net:1721?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn515969624
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn515969624.opengw.net:1562?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn551454672
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn551454672.opengw.net:1819?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn658368122
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn658368122.opengw.net:1403?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn577920298
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn577920298.opengw.net:1955?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn867945817
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn867945817.opengw.net:1420?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Latvia | vpn860205220
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn860205220.opengw.net:995?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn754724147
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn754724147.opengw.net:1693?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn520583431
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn520583431.opengw.net:1425?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 'vpngate | Croatia (LOCAL Name: Hrvatska) | vpn962496160'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn962496160.opengw.net:443?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn429431415
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn429431415.opengw.net:1202?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Saudi Arabia | fing
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@fing.opengw.net:992?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United Arab Emirates | vpn765941161
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn765941161.opengw.net:1271?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn188084942
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn188084942.opengw.net:1492?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn258922262
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn258922262.opengw.net:1921?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn821861855
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn821861855.opengw.net:1254?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn130941227
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn130941227.opengw.net:1307?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn173458867
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn173458867.opengw.net:1968?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn764427404
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn764427404.opengw.net:1716?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn306441626
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn306441626.opengw.net:1695?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Australia | vpn759761201
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn759761201.opengw.net:1521?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn891421741
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn891421741.opengw.net:1829?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn534295992
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn534295992.opengw.net:1613?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn241773470
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn241773470.opengw.net:1961?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Malaysia | vpn919050053
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn919050053.opengw.net:1998?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn501803801
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn501803801.opengw.net:1577?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn922312929
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn922312929.opengw.net:1997?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn672097281
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn672097281.opengw.net:1820?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Canada | vpn421416087
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn421416087.opengw.net:995?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn725563854
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn725563854.opengw.net:1851?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn973681698
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn973681698.opengw.net:1634?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn230180025
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn230180025.opengw.net:1300?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | India | vpn368881682
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn368881682.opengw.net:1531?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn449807260
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn449807260.opengw.net:1560?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn952898213
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn952898213.opengw.net:1306?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn551113625
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn551113625.opengw.net:1755?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn311391654
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn311391654.opengw.net:1386?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Philippines | vpn269589023
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn269589023.opengw.net:1709?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn649925232
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn649925232.opengw.net:1257?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn365038194
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn365038194.opengw.net:9008?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn195124753
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn195124753.opengw.net:1419?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn116626414
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn116626414.opengw.net:1245?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn784190008
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn784190008.opengw.net:1740?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn800048066
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn800048066.opengw.net:1738?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn306075912
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn306075912.opengw.net:1429?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Hong Kong | vpn986755484
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn986755484.opengw.net:1852?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn630618755
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn630618755.opengw.net:1956?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Romania | opengw
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@opengw.opengw.net:443?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn283848438
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn283848438.opengw.net:1695?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn312735118
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn312735118.opengw.net:1635?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn419568788
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn419568788.opengw.net:1512?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn927125019
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn927125019.opengw.net:1596?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Mexico | vpn572899163
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn572899163.opengw.net:1421?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn247081215
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn247081215.opengw.net:1752?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn886382666
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn886382666.opengw.net:1708?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Mexico | vpn841003782
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn841003782.opengw.net:1798?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Colombia | vpn182344692
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn182344692.opengw.net:1326?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Italy | vpn398736484
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn398736484.opengw.net:1723?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn312350919
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn312350919.opengw.net:1484?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn638396087
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn638396087.opengw.net:1583?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn464782860
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn464782860.opengw.net:1833?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn392875556
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn392875556.opengw.net:1641?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn581684567
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn581684567.opengw.net:1343?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn513832073
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn513832073.opengw.net:1646?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn654658565
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn654658565.opengw.net:1219?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn163067294
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn163067294.opengw.net:1426?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn857907455
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn857907455.opengw.net:1787?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn932505371
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn932505371.opengw.net:1360?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Thailand | vpn650277207
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn650277207.opengw.net:1571?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn152874786
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn152874786.opengw.net:1204?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn921733250
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn921733250.opengw.net:1973?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United Kingdom | patito
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@patito.opengw.net:1750?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn151649586
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn151649586.opengw.net:1926?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn815535968
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn815535968.opengw.net:1596?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Argentina | vpn934453056
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn934453056.opengw.net:1756?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Viet Nam | vpn884954934
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn884954934.opengw.net:1667?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn505047313
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn505047313.opengw.net:1384?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | Russian Federation | vpn964365012
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn964365012.opengw.net:1758?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+proxy-groups:
+- name: vpngate-手动选择
+  type: select
+  proxies:
+  - vpngate | Russian Federation | vpn612866585
+  - vpngate | Russian Federation | vpn600421903
+  - vpngate | Armenia | vpn763562980
+  - vpngate | Thailand | vpn558150618
+  - vpngate | Thailand | vpn701215762
+  - vpngate | Thailand | vpn725437353
+  - vpngate | Thailand | vpn524332662
+  - vpngate | Viet Nam | vpn198374908
+  - vpngate | Russian Federation | vpn466796601
+  - vpngate | Russian Federation | vpn765049448
+  - vpngate | Russian Federation | vpn171380381
+  - 'vpngate | Croatia (LOCAL Name: Hrvatska) | vpn232859084'
+  - vpngate | Russian Federation | vpn171904549
+  - vpngate | Thailand | vpn274822504
+  - vpngate | Thailand | idcrmn2
+  - vpngate | Thailand | vpn605489791
+  - 'vpngate | Croatia (LOCAL Name: Hrvatska) | vpn499585881'
+  - vpngate | Russian Federation | vpn305517077
+  - vpngate | Russian Federation | vpn955946718
+  - vpngate | Chile | vpn548414740
+  - vpngate | Russian Federation | vpn462957625
+  - vpngate | Russian Federation | vpn421481264
+  - vpngate | Russian Federation | vpn402443414
+  - vpngate | Grenada | diamondgnd
+  - vpngate | Ukraine | vpn313985146
+  - vpngate | Russian Federation | vpn177976718
+  - vpngate | Viet Nam | vpn894929051
+  - vpngate | Viet Nam | vpn743566583
+  - vpngate | Russian Federation | vpn592242922
+  - vpngate | Russian Federation | vpn397955876
+  - vpngate | Thailand | vpn315331153
+  - vpngate | Viet Nam | vpn354406831
+  - vpngate | Canada | vpn491348575
+  - vpngate | Viet Nam | vpn209052080
+  - vpngate | Mexico | vpn158297266
+  - vpngate | Mexico | cetsssa
+  - vpngate | Russian Federation | vpn442264418
+  - vpngate | Russian Federation | vpn123075961
+  - vpngate | Russian Federation | vpn817441679
+  - vpngate | Hungary | vpn273160004
+  - 'vpngate | Croatia (LOCAL Name: Hrvatska) | vpn132328711'
+  - 'vpngate | Croatia (LOCAL Name: Hrvatska) | vpn178522347'
+  - 'vpngate | Croatia (LOCAL Name: Hrvatska) | vpn981204829'
+  - vpngate | Argentina | vpn674623436
+  - vpngate | Russian Federation | vpn202976802
+  - vpngate | Viet Nam | vpn842914014
+  - vpngate | Russian Federation | vpn271089328
+  - vpngate | Malaysia | vpn667888734
+  - vpngate | Australia | vpn289936273
+  - vpngate | Thailand | vpn968104007
+  - vpngate | Viet Nam | vpn349783000
+  - vpngate | Viet Nam | vpn864131273
+  - 'vpngate | Croatia (LOCAL Name: Hrvatska) | vpn118469396'
+  - vpngate | Russian Federation | vpn902826727
+  - vpngate | Russian Federation | vpn432636439
+  - vpngate | Mexico | vpn764449825
+  - vpngate | Russian Federation | vpn353146232
+  - vpngate | United Kingdom | vpn175717635
+  - vpngate | Russian Federation | vpn412838930
+  - vpngate | Russian Federation | vpn535130688
+  - vpngate | Russian Federation | vpn684766837
+  - vpngate | Viet Nam | vpn439009803
+  - vpngate | Viet Nam | vpn659080135
+  - vpngate | Russian Federation | vpn853980609
+  - vpngate | Russian Federation | vpn254736373
+  - vpngate | Thailand | vpn515969624
+  - vpngate | Russian Federation | vpn551454672
+  - vpngate | Thailand | vpn658368122
+  - vpngate | Russian Federation | vpn577920298
+  - vpngate | Russian Federation | vpn867945817
+  - vpngate | Latvia | vpn860205220
+  - vpngate | Russian Federation | vpn754724147
+  - vpngate | Russian Federation | vpn520583431
+  - 'vpngate | Croatia (LOCAL Name: Hrvatska) | vpn962496160'
+  - vpngate | Thailand | vpn429431415
+  - vpngate | Saudi Arabia | fing
+  - vpngate | United Arab Emirates | vpn765941161
+  - vpngate | Viet Nam | vpn188084942
+  - vpngate | Thailand | vpn258922262
+  - vpngate | Russian Federation | vpn821861855
+  - vpngate | Viet Nam | vpn130941227
+  - vpngate | Russian Federation | vpn173458867
+  - vpngate | Viet Nam | vpn764427404
+  - vpngate | Russian Federation | vpn306441626
+  - vpngate | Australia | vpn759761201
+  - vpngate | Russian Federation | vpn891421741
+  - vpngate | Thailand | vpn534295992
+  - vpngate | Russian Federation | vpn241773470
+  - vpngate | Malaysia | vpn919050053
+  - vpngate | Russian Federation | vpn501803801
+  - vpngate | Viet Nam | vpn922312929
+  - vpngate | Thailand | vpn672097281
+  - vpngate | Canada | vpn421416087
+  - vpngate | Russian Federation | vpn725563854
+  - vpngate | Thailand | vpn973681698
+  - vpngate | Viet Nam | vpn230180025
+  - vpngate | India | vpn368881682
+  - vpngate | Thailand | vpn449807260
+  - vpngate | Viet Nam | vpn952898213
+  - vpngate | Viet Nam | vpn551113625
+  - vpngate | Russian Federation | vpn311391654
+  - vpngate | Philippines | vpn269589023
+  - vpngate | Thailand | vpn649925232
+  - vpngate | Viet Nam | vpn365038194
+  - vpngate | Viet Nam | vpn195124753
+  - vpngate | Viet Nam | vpn116626414
+  - vpngate | Russian Federation | vpn784190008
+  - vpngate | Thailand | vpn800048066
+  - vpngate | Russian Federation | vpn306075912
+  - vpngate | Hong Kong | vpn986755484
+  - vpngate | Viet Nam | vpn630618755
+  - vpngate | Romania | opengw
+  - vpngate | Russian Federation | vpn283848438
+  - vpngate | Viet Nam | vpn312735118
+  - vpngate | Russian Federation | vpn419568788
+  - vpngate | Thailand | vpn927125019
+  - vpngate | Mexico | vpn572899163
+  - vpngate | Russian Federation | vpn247081215
+  - vpngate | Russian Federation | vpn886382666
+  - vpngate | Mexico | vpn841003782
+  - vpngate | Colombia | vpn182344692
+  - vpngate | Italy | vpn398736484
+  - vpngate | Russian Federation | vpn312350919
+  - vpngate | Russian Federation | vpn638396087
+  - vpngate | Russian Federation | vpn464782860
+  - vpngate | Russian Federation | vpn392875556
+  - vpngate | Thailand | vpn581684567
+  - vpngate | Thailand | vpn513832073
+  - vpngate | Thailand | vpn654658565
+  - vpngate | Thailand | vpn163067294
+  - vpngate | Thailand | vpn857907455
+  - vpngate | Viet Nam | vpn932505371
+  - vpngate | Thailand | vpn650277207
+  - vpngate | Viet Nam | vpn152874786
+  - vpngate | Viet Nam | vpn921733250
+  - vpngate | United Kingdom | patito
+  - vpngate | Russian Federation | vpn151649586
+  - vpngate | Russian Federation | vpn815535968
+  - vpngate | Argentina | vpn934453056
+  - vpngate | Viet Nam | vpn884954934
+  - vpngate | Russian Federation | vpn505047313
+  - vpngate | Russian Federation | vpn964365012
+rules:
+- MATCH,vpngate-手动选择

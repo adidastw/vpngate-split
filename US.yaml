@@ -1,0 +1,441 @@
+# 自动生成，请通过拆分脚本更新。
+# 分组：US；节点数：24
+proxies:
+- name: vpngate | United States | vpn294043338
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn294043338.opengw.net:1649?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn115726570
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn115726570.opengw.net:1583?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn918840683
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn918840683.opengw.net:1245?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn163437831
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn163437831.opengw.net:1555?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn164693092
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn164693092.opengw.net:1363?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn385096364
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn385096364.opengw.net:1355?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn907569351
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn907569351.opengw.net:1881?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn785793258
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn785793258.opengw.net:1761?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn167065968
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn167065968.opengw.net:1810?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn115260242
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn115260242.opengw.net:1438?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn625877873
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn625877873.opengw.net:1868?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn974535826
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn974535826.opengw.net:1570?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn197493440
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn197493440.opengw.net:1258?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn575281029
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn575281029.opengw.net:1659?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn641734582
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn641734582.opengw.net:1916?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn575301221
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn575301221.opengw.net:1674?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn208397534
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn208397534.opengw.net:1808?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn929837151
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn929837151.opengw.net:1560?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn311746592
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn311746592.opengw.net:1288?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn374264214
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn374264214.opengw.net:1963?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn577513710
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn577513710.opengw.net:1295?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn562993494
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn562993494.opengw.net:1343?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn621884204
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn621884204.opengw.net:995?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vpngate | United States | vpn799794865
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn799794865.opengw.net:1919?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+proxy-groups:
+- name: vpngate-手动选择
+  type: select
+  proxies:
+  - vpngate | United States | vpn294043338
+  - vpngate | United States | vpn115726570
+  - vpngate | United States | vpn918840683
+  - vpngate | United States | vpn163437831
+  - vpngate | United States | vpn164693092
+  - vpngate | United States | vpn385096364
+  - vpngate | United States | vpn907569351
+  - vpngate | United States | vpn785793258
+  - vpngate | United States | vpn167065968
+  - vpngate | United States | vpn115260242
+  - vpngate | United States | vpn625877873
+  - vpngate | United States | vpn974535826
+  - vpngate | United States | vpn197493440
+  - vpngate | United States | vpn575281029
+  - vpngate | United States | vpn641734582
+  - vpngate | United States | vpn575301221
+  - vpngate | United States | vpn208397534
+  - vpngate | United States | vpn929837151
+  - vpngate | United States | vpn311746592
+  - vpngate | United States | vpn374264214
+  - vpngate | United States | vpn577513710
+  - vpngate | United States | vpn562993494
+  - vpngate | United States | vpn621884204
+  - vpngate | United States | vpn799794865
+rules:
+- MATCH,vpngate-手动选择

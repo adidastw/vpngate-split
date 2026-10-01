@@ -1,0 +1,79 @@
+name: Update regional subscriptions
+
+"on":
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - 'requirements.txt'
+      - '.github/workflows/split.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: regional-subscriptions
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Read repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: python -m pip install --requirement requirements.txt
+
+      - name: Run regression tests
+        id: tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Generate all five subscriptions
+        id: generate
+        run: python scripts/split_subscriptions.py
+
+      - name: Validate every configuration with Mihomo
+        id: validate
+        shell: bash
+        env:
+          MIHOMO_URL: https://github.com/MetaCubeX/mihomo/releases/download/v1.19.32/mihomo-linux-amd64-compatible-v1.19.32.gz
+          MIHOMO_SHA256: ba3ce607747a07f948fc35780e108a4a7c7f552a38b9bd4d115f313ebcb89c20
+        run: |
+          set -euo pipefail
+          archive="$RUNNER_TEMP/mihomo.gz"
+          binary="$RUNNER_TEMP/mihomo"
+          curl --fail --location --silent --show-error --retry 2 \
+            --connect-timeout 15 --max-time 120 "$MIHOMO_URL" --output "$archive"
+          printf '%s  %s\n' "$MIHOMO_SHA256" "$archive" | sha256sum --check
+          gzip --decompress --stdout "$archive" > "$binary"
+          chmod u+x "$binary"
+          for part in JP1 JP2 KR US OTHER; do
+            "$binary" -t -d "$RUNNER_TEMP/mihomo-check-$part" -f "$GITHUB_WORKSPACE/$part.yaml"
+          done
+
+      - name: Publish validated subscriptions
+        id: publish
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- JP1.yaml JP2.yaml KR.yaml US.yaml OTHER.yaml
+          if git diff --cached --quiet; then
+            echo "Subscriptions are unchanged."
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' \
+            -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+            commit -m 'Update regional subscriptions'
+          git push
