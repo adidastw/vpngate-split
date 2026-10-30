@@ -1,5 +1,5 @@
 # 自动生成，请通过拆分脚本更新。
-# 分组：US；节点数：4
+# 分组：US；节点数：5
 dns:
   enable: true
   ipv6: false
@@ -58,6 +58,23 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn918840683.opengw.net:1245?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:1|United States|86.51|落地:174.87.100.177
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn584855640.opengw.net:1893?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:2|United States|370.98|落地:72.180.86.104
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -98,6 +115,7 @@ proxy-groups:
   proxies:
   - 家宽|纯净度:10|United States|0.00|落地:47.188.79.92
   - 机房|纯净度:35|United States|348.58|落地:38.34.239.132
+  - 家宽|纯净度:1|United States|86.51|落地:174.87.100.177
   - 家宽|纯净度:2|United States|370.98|落地:72.180.86.104
   - 家宽|纯净度:0|United States|72.84|落地:198.255.176.69
   - DIRECT
@@ -110,6 +128,7 @@ proxy-groups:
   proxies:
   - 家宽|纯净度:10|United States|0.00|落地:47.188.79.92
   - 机房|纯净度:35|United States|348.58|落地:38.34.239.132
+  - 家宽|纯净度:1|United States|86.51|落地:174.87.100.177
   - 家宽|纯净度:2|United States|370.98|落地:72.180.86.104
   - 家宽|纯净度:0|United States|72.84|落地:198.255.176.69
 rules:

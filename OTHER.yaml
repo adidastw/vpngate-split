@@ -1,5 +1,5 @@
 # 自动生成，请通过拆分脚本更新。
-# 分组：OTHER；节点数：68
+# 分组：OTHER；节点数：65
 dns:
   enable: true
   ipv6: false
@@ -126,6 +126,23 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn864131273.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:6|Viet Nam|84.04|落地:118.68.222.29
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn516642203.opengw.net:1548?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:9|France|112.14|落地:45.152.19.83
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -177,7 +194,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn911912049.opengw.net:1446?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:3|Mexico|309.57|落地:187.138.51.4
+- name: 家宽|纯净度:0|Mexico|309.57|落地:187.138.75.76
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -330,57 +347,6 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn624822550.opengw.net:1463?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:6|Viet Nam|84.52|落地:118.68.222.29
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn279190265.opengw.net:1901?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: Russian Federation|341.31
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn536329081.opengw.net:1965?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: India|174.73
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn359610091.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
 - name: Russian Federation|95.67
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -432,7 +398,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn809464495.opengw.net:1806?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:11|Hong Kong|17.73|落地:58.152.29.26
+- name: Viet Nam|84.52
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -446,7 +412,41 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn986755484.opengw.net:1852?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn279190265.opengw.net:1901?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Russian Federation|220.84
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn103832537.opengw.net:1347?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Russian Federation|341.31
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn536329081.opengw.net:1965?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: Russian Federation|581.15
@@ -500,23 +500,6 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn759761201.opengw.net:1521?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:11|United Arab Emirates|38.98|落地:31.215.89.232
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn231298988.opengw.net:1953?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:4|Colombia|104.93|落地:181.135.5.138
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -534,7 +517,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn182344692.opengw.net:1326?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:8|Morocco|30.58|落地:197.147.169.64
+- name: 家宽|纯净度:11|United Arab Emirates|38.98|落地:31.215.89.232
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -548,7 +531,7 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn575872396.opengw.net:1924?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn231298988.opengw.net:1953?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: Russian Federation|91.94
@@ -568,6 +551,23 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn271963282.opengw.net:1525?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
+- name: Viet Nam|122.40
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn949158831.opengw.net:1660?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
 - name: Russian Federation|133.08
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -585,57 +585,6 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn905705825.opengw.net:1439?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:10|Malaysia|356.68|落地:175.139.186.213
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn667888734.opengw.net:443?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:21|Viet Nam|122.40|落地:42.113.175.170
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn949158831.opengw.net:1660?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:7|United Kingdom|102.70|落地:86.31.10.118
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn777297866.opengw.net:1958?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:18|Thailand|241.70|落地:223.206.59.136
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -651,6 +600,40 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn973681698.opengw.net:1634?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:17|Thailand|699.79|落地:58.136.76.39
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn113281460.opengw.net:1589?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:9|Thailand|403.77|落地:58.136.182.28
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn274822504.opengw.net:1657?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:3|Canada|17.42|落地:184.68.30.116
@@ -687,23 +670,6 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn412838930.opengw.net:1229?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:11|Viet Nam|161.71|落地:113.22.82.215
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn778475680.opengw.net:1225?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
 - name: Russian Federation|131.16
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -719,6 +685,23 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn146691784.opengw.net:1393?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:11|Viet Nam|161.71|落地:113.22.82.215
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn778475680.opengw.net:1225?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: Russian Federation|14.36
@@ -755,7 +738,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn127539145.opengw.net:1580?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: Russian Federation|420.05
+- name: 家宽|纯净度:4|Viet Nam|91.21|落地:1.53.77.196
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -769,7 +752,7 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn967437164.opengw.net:1234?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn354406831.opengw.net:1783?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 机房|纯净度:9|Australia|51.01|落地:58.178.110.68
@@ -789,7 +772,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn164471586.opengw.net:1231?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: Viet Nam|159.66
+- name: 家宽|纯净度:6|Viet Nam|159.66|落地:118.68.222.29
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -823,7 +806,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn603266989.opengw.net:1497?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: Thailand|378.99
+- name: 家宽|纯净度:2|Canada|254.05|落地:142.114.98.174
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -837,10 +820,10 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn514703500.opengw.net:1754?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn320086889.opengw.net:1886?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: Russian Federation|84.95
+- name: 家宽|纯净度:6|Thailand|654.00|落地:184.82.141.67
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -854,24 +837,7 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn764568418.opengw.net:1927?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: Russian Federation|21.36
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn581959162.opengw.net:1260?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn515969624.opengw.net:1562?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: Russian Federation|60.38
@@ -908,7 +874,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn853980609.opengw.net:1313?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: Russian Federation|46.63
+- name: Bangladesh|63.84
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -922,7 +888,7 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn667439001.opengw.net:1446?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn342499472.opengw.net:1220?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: Russian Federation|48.23
@@ -1027,23 +993,6 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn470722136.opengw.net:1540?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:6|Viet Nam|242.53|落地:42.117.51.2
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn195124753.opengw.net:1419?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
 - name: Russian Federation|25.67
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -1061,7 +1010,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn228479212.opengw.net:1665?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:8|Russian Federation|9.15|落地:86.102.85.79
+- name: Russian Federation|9.15
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -1078,7 +1027,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn171380381.opengw.net:1965?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 机房|纯净度:49|Romania|367.68|落地:187.15.134.130
+- name: 机房|纯净度:32|Romania|367.68|落地:187.15.135.235
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -1093,23 +1042,6 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@opengw.opengw.net:443?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:82|Viet Nam|223.56|落地:42.118.99.136
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn923730258.opengw.net:1343?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:2|Greece|43.72|落地:79.107.61.238
@@ -1146,7 +1078,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn638396087.opengw.net:1583?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:9|Panama|179.69|落地:186.74.138.23
+- name: 家宽|纯净度:6|Philippines|24.48|落地:203.177.99.52
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -1160,7 +1092,7 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn743273359.opengw.net:1941?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn269589023.opengw.net:1709?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:6|Viet Nam|78.07|落地:118.68.222.29
@@ -1180,6 +1112,23 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn809278086.opengw.net:1356?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:10|Thailand|73.25|落地:171.5.32.100
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn650277207.opengw.net:1571?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
 proxy-groups:
 - name: vpngate-手动选择
   type: select
@@ -1190,10 +1139,11 @@ proxy-groups:
   - 家宽|纯净度:53|Italy|13.56|落地:45.89.183.66
   - 家宽|纯净度:8|United Kingdom|418.21|落地:27.92.168.168
   - 家宽|纯净度:9|Viet Nam|724.53|落地:1.52.203.5
+  - 家宽|纯净度:6|Viet Nam|84.04|落地:118.68.222.29
   - 家宽|纯净度:9|France|112.14|落地:45.152.19.83
   - 家宽|纯净度:6|Viet Nam|158.82|落地:118.68.222.29
   - 家宽|纯净度:2|Australia|44.65|落地:1.159.52.103
-  - 家宽|纯净度:3|Mexico|309.57|落地:187.138.51.4
+  - 家宽|纯净度:0|Mexico|309.57|落地:187.138.75.76
   - 家宽|纯净度:3|Lithuania|193.35|落地:77.79.18.229
   - Russian Federation|318.23
   - 家宽|纯净度:4|Hong Kong|406.48|落地:113.28.199.46
@@ -1202,56 +1152,52 @@ proxy-groups:
   - 家宽|纯净度:2|Ukraine|26.66|落地:31.43.129.131
   - Russian Federation|329.47
   - Russian Federation|41.85
-  - 家宽|纯净度:6|Viet Nam|84.52|落地:118.68.222.29
-  - Russian Federation|341.31
-  - India|174.73
   - Russian Federation|95.67
   - 家宽|纯净度:2|Thailand|353.98|落地:180.183.146.119
   - Russian Federation|95.08
-  - 家宽|纯净度:11|Hong Kong|17.73|落地:58.152.29.26
+  - Viet Nam|84.52
+  - Russian Federation|220.84
+  - Russian Federation|341.31
   - Russian Federation|581.15
   - Russian Federation|31.13
   - 家宽|纯净度:58|Australia|86.76|落地:125.253.56.120
-  - 家宽|纯净度:11|United Arab Emirates|38.98|落地:31.215.89.232
   - 家宽|纯净度:4|Colombia|104.93|落地:181.135.5.138
-  - 家宽|纯净度:8|Morocco|30.58|落地:197.147.169.64
+  - 家宽|纯净度:11|United Arab Emirates|38.98|落地:31.215.89.232
   - Russian Federation|91.94
+  - Viet Nam|122.40
   - Russian Federation|133.08
-  - 家宽|纯净度:10|Malaysia|356.68|落地:175.139.186.213
-  - 家宽|纯净度:21|Viet Nam|122.40|落地:42.113.175.170
-  - 家宽|纯净度:7|United Kingdom|102.70|落地:86.31.10.118
   - 家宽|纯净度:18|Thailand|241.70|落地:223.206.59.136
+  - 家宽|纯净度:17|Thailand|699.79|落地:58.136.76.39
+  - 家宽|纯净度:9|Thailand|403.77|落地:58.136.182.28
   - 家宽|纯净度:3|Canada|17.42|落地:184.68.30.116
   - Russian Federation|181.01
-  - 家宽|纯净度:11|Viet Nam|161.71|落地:113.22.82.215
   - Russian Federation|131.16
+  - 家宽|纯净度:11|Viet Nam|161.71|落地:113.22.82.215
   - Russian Federation|14.36
   - 家宽|纯净度:7|Brazil|94.87|落地:191.180.167.209
-  - Russian Federation|420.05
+  - 家宽|纯净度:4|Viet Nam|91.21|落地:1.53.77.196
   - 机房|纯净度:9|Australia|51.01|落地:58.178.110.68
-  - Viet Nam|159.66
+  - 家宽|纯净度:6|Viet Nam|159.66|落地:118.68.222.29
   - Russian Federation|38.73
-  - Thailand|378.99
-  - Russian Federation|84.95
-  - Russian Federation|21.36
+  - 家宽|纯净度:2|Canada|254.05|落地:142.114.98.174
+  - 家宽|纯净度:6|Thailand|654.00|落地:184.82.141.67
   - Russian Federation|60.38
   - Russian Federation|101.92
-  - Russian Federation|46.63
+  - Bangladesh|63.84
   - Russian Federation|48.23
   - Russian Federation|78.66
   - Russian Federation|38.20
   - 家宽|纯净度:8|Thailand|45.83|落地:223.204.155.167
   - Russian Federation|45.23
   - Russian Federation|48.84
-  - 家宽|纯净度:6|Viet Nam|242.53|落地:42.117.51.2
   - Russian Federation|25.67
-  - 家宽|纯净度:8|Russian Federation|9.15|落地:86.102.85.79
-  - 机房|纯净度:49|Romania|367.68|落地:187.15.134.130
-  - 家宽|纯净度:82|Viet Nam|223.56|落地:42.118.99.136
+  - Russian Federation|9.15
+  - 机房|纯净度:32|Romania|367.68|落地:187.15.135.235
   - 家宽|纯净度:2|Greece|43.72|落地:79.107.61.238
   - Russian Federation|32.88
-  - 家宽|纯净度:9|Panama|179.69|落地:186.74.138.23
+  - 家宽|纯净度:6|Philippines|24.48|落地:203.177.99.52
   - 家宽|纯净度:6|Viet Nam|78.07|落地:118.68.222.29
+  - 家宽|纯净度:10|Thailand|73.25|落地:171.5.32.100
   - DIRECT
 - name: vpngate-自动选择
   type: url-test
@@ -1266,10 +1212,11 @@ proxy-groups:
   - 家宽|纯净度:53|Italy|13.56|落地:45.89.183.66
   - 家宽|纯净度:8|United Kingdom|418.21|落地:27.92.168.168
   - 家宽|纯净度:9|Viet Nam|724.53|落地:1.52.203.5
+  - 家宽|纯净度:6|Viet Nam|84.04|落地:118.68.222.29
   - 家宽|纯净度:9|France|112.14|落地:45.152.19.83
   - 家宽|纯净度:6|Viet Nam|158.82|落地:118.68.222.29
   - 家宽|纯净度:2|Australia|44.65|落地:1.159.52.103
-  - 家宽|纯净度:3|Mexico|309.57|落地:187.138.51.4
+  - 家宽|纯净度:0|Mexico|309.57|落地:187.138.75.76
   - 家宽|纯净度:3|Lithuania|193.35|落地:77.79.18.229
   - Russian Federation|318.23
   - 家宽|纯净度:4|Hong Kong|406.48|落地:113.28.199.46
@@ -1278,56 +1225,52 @@ proxy-groups:
   - 家宽|纯净度:2|Ukraine|26.66|落地:31.43.129.131
   - Russian Federation|329.47
   - Russian Federation|41.85
-  - 家宽|纯净度:6|Viet Nam|84.52|落地:118.68.222.29
-  - Russian Federation|341.31
-  - India|174.73
   - Russian Federation|95.67
   - 家宽|纯净度:2|Thailand|353.98|落地:180.183.146.119
   - Russian Federation|95.08
-  - 家宽|纯净度:11|Hong Kong|17.73|落地:58.152.29.26
+  - Viet Nam|84.52
+  - Russian Federation|220.84
+  - Russian Federation|341.31
   - Russian Federation|581.15
   - Russian Federation|31.13
   - 家宽|纯净度:58|Australia|86.76|落地:125.253.56.120
-  - 家宽|纯净度:11|United Arab Emirates|38.98|落地:31.215.89.232
   - 家宽|纯净度:4|Colombia|104.93|落地:181.135.5.138
-  - 家宽|纯净度:8|Morocco|30.58|落地:197.147.169.64
+  - 家宽|纯净度:11|United Arab Emirates|38.98|落地:31.215.89.232
   - Russian Federation|91.94
+  - Viet Nam|122.40
   - Russian Federation|133.08
-  - 家宽|纯净度:10|Malaysia|356.68|落地:175.139.186.213
-  - 家宽|纯净度:21|Viet Nam|122.40|落地:42.113.175.170
-  - 家宽|纯净度:7|United Kingdom|102.70|落地:86.31.10.118
   - 家宽|纯净度:18|Thailand|241.70|落地:223.206.59.136
+  - 家宽|纯净度:17|Thailand|699.79|落地:58.136.76.39
+  - 家宽|纯净度:9|Thailand|403.77|落地:58.136.182.28
   - 家宽|纯净度:3|Canada|17.42|落地:184.68.30.116
   - Russian Federation|181.01
-  - 家宽|纯净度:11|Viet Nam|161.71|落地:113.22.82.215
   - Russian Federation|131.16
+  - 家宽|纯净度:11|Viet Nam|161.71|落地:113.22.82.215
   - Russian Federation|14.36
   - 家宽|纯净度:7|Brazil|94.87|落地:191.180.167.209
-  - Russian Federation|420.05
+  - 家宽|纯净度:4|Viet Nam|91.21|落地:1.53.77.196
   - 机房|纯净度:9|Australia|51.01|落地:58.178.110.68
-  - Viet Nam|159.66
+  - 家宽|纯净度:6|Viet Nam|159.66|落地:118.68.222.29
   - Russian Federation|38.73
-  - Thailand|378.99
-  - Russian Federation|84.95
-  - Russian Federation|21.36
+  - 家宽|纯净度:2|Canada|254.05|落地:142.114.98.174
+  - 家宽|纯净度:6|Thailand|654.00|落地:184.82.141.67
   - Russian Federation|60.38
   - Russian Federation|101.92
-  - Russian Federation|46.63
+  - Bangladesh|63.84
   - Russian Federation|48.23
   - Russian Federation|78.66
   - Russian Federation|38.20
   - 家宽|纯净度:8|Thailand|45.83|落地:223.204.155.167
   - Russian Federation|45.23
   - Russian Federation|48.84
-  - 家宽|纯净度:6|Viet Nam|242.53|落地:42.117.51.2
   - Russian Federation|25.67
-  - 家宽|纯净度:8|Russian Federation|9.15|落地:86.102.85.79
-  - 机房|纯净度:49|Romania|367.68|落地:187.15.134.130
-  - 家宽|纯净度:82|Viet Nam|223.56|落地:42.118.99.136
+  - Russian Federation|9.15
+  - 机房|纯净度:32|Romania|367.68|落地:187.15.135.235
   - 家宽|纯净度:2|Greece|43.72|落地:79.107.61.238
   - Russian Federation|32.88
-  - 家宽|纯净度:9|Panama|179.69|落地:186.74.138.23
+  - 家宽|纯净度:6|Philippines|24.48|落地:203.177.99.52
   - 家宽|纯净度:6|Viet Nam|78.07|落地:118.68.222.29
+  - 家宽|纯净度:10|Thailand|73.25|落地:171.5.32.100
 rules:
 - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
 - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
