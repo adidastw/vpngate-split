@@ -23,6 +23,7 @@ COUNTRY_BUCKETS = {
     "united states": "US",
 }
 BUILTIN_NAMES = frozenset({"DIRECT", "REJECT", "REJECT-DROP", "PASS"})
+QUALITY_FIELD_PREFIX = "纯净度:"
 Config = dict[str, Any]
 
 
@@ -75,10 +76,24 @@ def validate_source(source: object) -> Config:
     return source
 
 
+def country_field(name: str) -> str:
+    fields = [field.strip() for field in name.split("|")]
+    match fields:
+        case [_, quality, country, *_] if quality.startswith(QUALITY_FIELD_PREFIX):
+            # 家宽/机房 | 纯净度:评分 | 国家 | 延迟 | 落地地址
+            return country
+        case [country, _]:
+            # 国家 | 延迟
+            return country
+        case [_, country, _, *_]:
+            # vpngate | 国家 | 节点标识；保留旧格式兼容。
+            return country
+        case _:
+            return ""
+
+
 def country_bucket(name: str) -> str:
-    fields = name.split("|", 2)
-    country = fields[1].strip().casefold() if len(fields) == 3 else ""
-    return COUNTRY_BUCKETS.get(country, "OTHER")
+    return COUNTRY_BUCKETS.get(country_field(name).casefold(), "OTHER")
 
 
 def partition_proxies(proxies: list[Config]) -> dict[str, list[Config]]:
