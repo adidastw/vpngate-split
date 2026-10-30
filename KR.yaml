@@ -1,5 +1,5 @@
 # 自动生成，请通过拆分脚本更新。
-# 分组：KR；节点数：214
+# 分组：KR；节点数：226
 dns:
   enable: true
   ipv6: false
@@ -24,23 +24,6 @@ dns:
     geoip: true
     geoip-code: CN
 proxies:
-- name: 家宽|纯净度:1|Korea Republic of|65.02|落地:112.187.218.114
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn624984613.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:2|Korea Republic of|12.58|落地:182.220.175.195
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -58,7 +41,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn368704878.opengw.net:1511?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:4|Korea Republic of|73.12|落地:211.245.102.129
+- name: 家宽|纯净度:1|Korea Republic of|65.02|落地:112.187.218.114
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -72,10 +55,10 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn162822314.opengw.net:1672?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn624984613.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:12|Korea Republic of|8.71|落地:220.89.214.125
+- name: 家宽|纯净度:10|Korea Republic of|122.5|落地:121.148.24.7
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -89,24 +72,7 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn210599978.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:4|Korea Republic of|139.45|落地:59.6.114.202
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn966533712.opengw.net:1941?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn421743167.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:8|Korea Republic of|544.10|落地:119.196.23.11
@@ -143,41 +109,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn457943270.opengw.net:1741?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: Korea Republic of|255.18
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn122709402.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:16|Korea Republic of|72.65|落地:221.160.132.214
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn315847091.opengw.net:1840?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:3|Korea Republic of|100.38|落地:14.47.79.84
+- name: Korea Republic of|100.38
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -211,40 +143,6 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn653877201.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:4|Korea Republic of|5.85|落地:218.152.3.95
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn916299088.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:5|Korea Republic of|330.03|落地:118.37.55.217
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn927416621.opengw.net:1951?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:28|Korea Republic of|96.42|落地:1.244.51.251
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -262,7 +160,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn542106022.opengw.net:1537?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:6|Korea Republic of|76.90|落地:121.175.117.96
+- name: 家宽|纯净度:4|Korea Republic of|5.85|落地:218.152.3.95
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -276,24 +174,7 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn413571266.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:1|Korea Republic of|95.09|落地:123.109.244.227
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn698373679.opengw.net:1911?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn916299088.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:2|Korea Republic of|241.37|落地:221.154.201.165
@@ -313,7 +194,75 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn928731604.opengw.net:1681?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: Korea Republic of|62.82
+- name: 家宽|纯净度:6|Korea Republic of|76.90|落地:121.175.117.96
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn413571266.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Korea Republic of|8.71
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn210599978.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:1|Korea Republic of|95.09|落地:123.109.244.227
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn698373679.opengw.net:1911?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:5|Korea Republic of|330.03|落地:118.37.55.217
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn927416621.opengw.net:1951?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:5|Korea Republic of|62.82|落地:112.167.64.3
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -347,6 +296,23 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn405907076.opengw.net:1387?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
+- name: Korea Republic of|255.18
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn122709402.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:3|Korea Republic of|23.27|落地:121.161.33.240
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -362,6 +328,57 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn201053993.opengw.net:1386?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Korea Republic of|750.58
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn169225991.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Korea Republic of|72.65
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn315847091.opengw.net:1840?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:3|Korea Republic of|94.68|落地:220.125.231.115
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn974047537.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:1|Korea Republic of|735.24|落地:182.218.30.18
@@ -398,40 +415,6 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn607155856.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:1|Korea Republic of|54.07|落地:121.189.172.218
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn500645444.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: Korea Republic of|96.07
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn824185996.opengw.net:1819?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:4|Korea Republic of|78.62|落地:220.92.176.69
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -466,40 +449,6 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn598832486.opengw.net:1918?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:6|Korea Republic of|750.58|落地:125.240.231.54
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn169225991.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:8|Korea Republic of|515.13|落地:119.196.23.11
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn890391573.opengw.net:1755?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:14|Korea Republic of|409.94|落地:1.214.177.206
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -517,7 +466,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn269593454.opengw.net:1211?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: Korea Republic of|94.52
+- name: 机房|纯净度:23|Korea Republic of|94.52|落地:211.238.145.82
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -532,6 +481,74 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn513922513.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:1|Korea Republic of|54.07|落地:121.189.172.218
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn500645444.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:6|Korea Republic of|96.07|落地:118.34.210.174
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn824185996.opengw.net:1819?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:8|Korea Republic of|57.55|落地:211.226.71.219
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn493435183.opengw.net:1808?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:8|Korea Republic of|515.13|落地:119.196.23.11
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn890391573.opengw.net:1755?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:4|Korea Republic of|211.90|落地:39.115.15.14
@@ -568,7 +585,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn883939909.opengw.net:1677?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:7|Korea Republic of|6.59|落地:220.77.247.211
+- name: Korea Republic of|6.59
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -619,7 +636,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn768864831.opengw.net:1762?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:0|Korea Republic of|89.67|落地:182.214.53.18
+- name: Korea Republic of|89.67
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -636,7 +653,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn388432584.opengw.net:1201?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:7|Korea Republic of|460.12|落地:222.120.189.180
+- name: 家宽|纯净度:8|Korea Republic of|91.64|落地:182.231.233.37
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -650,41 +667,7 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn233558271.opengw.net:1934?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:4|Korea Republic of|6.78|落地:222.120.20.69
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn131652721.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:6|Korea Republic of|81.63|落地:121.189.231.253
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn922041785.opengw.net:1435?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn760508152.opengw.net:1253?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:6|Korea Republic of|65.24|落地:125.134.202.104
@@ -721,6 +704,57 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn564106646.opengw.net:1980?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:7|Korea Republic of|460.12|落地:222.120.189.180
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn233558271.opengw.net:1934?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:6|Korea Republic of|81.63|落地:121.189.231.253
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn922041785.opengw.net:1435?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:7|Korea Republic of|250.18|落地:211.226.234.185
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn155510151.opengw.net:1674?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:29|Korea Republic of|476.31|落地:118.42.14.84
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -755,7 +789,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn283496929.opengw.net:1483?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:4|Korea Republic of|277.59|落地:211.221.198.244
+- name: Korea Republic of|277.59
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -770,6 +804,23 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn311787559.opengw.net:1249?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:4|Korea Republic of|92.92|落地:175.200.186.38
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn893437202.opengw.net:1292?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:7|Korea Republic of|36.48|落地:61.82.162.106
@@ -789,23 +840,6 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn302973296.opengw.net:1333?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:7|Korea Republic of|250.18|落地:211.226.234.185
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn155510151.opengw.net:1674?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:2|Korea Republic of|326.81|落地:116.37.252.7
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -823,6 +857,23 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn400598896.opengw.net:1250?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:6|Korea Republic of|137.09|落地:210.97.97.242
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn385564263.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:24|Korea Republic of|26.65|落地:112.172.121.216
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -838,23 +889,6 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn606487832.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:7|Korea Republic of|459.28|落地:221.165.229.38
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn195809939.opengw.net:1632?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:4|Korea Republic of|84.18|落地:121.139.54.121
@@ -908,7 +942,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn182270293.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: Korea Republic of|157.44
+- name: 家宽|纯净度:9|Korea Republic of|157.44|落地:211.52.54.185
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -923,23 +957,6 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn827401311.opengw.net:1302?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:3|Korea Republic of|102.52|落地:39.115.217.57
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn480854733.opengw.net:1335?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:2|Korea Republic of|81.05|落地:59.14.221.13
@@ -959,6 +976,57 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn655966354.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:3|Korea Republic of|102.52|落地:39.115.217.57
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn480854733.opengw.net:1335?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:7|Korea Republic of|459.28|落地:221.165.229.38
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn195809939.opengw.net:1632?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Korea Republic of|8.87
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn315315201.opengw.net:1215?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:0|Korea Republic of|84.19|落地:222.99.195.19
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -976,7 +1044,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn812357243.opengw.net:1752?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:6|Korea Republic of|8.87|落地:14.47.68.46
+- name: 家宽|纯净度:9|Korea Republic of|95.21|落地:220.122.181.19
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -990,41 +1058,7 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn315315201.opengw.net:1215?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:8|Korea Republic of|89.32|落地:175.113.163.59
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn954065459.opengw.net:1954?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:73|Korea Republic of|92.79|落地:120.29.134.202
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn917497474.opengw.net:1535?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn283923070.opengw.net:1978?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:4|Korea Republic of|96.77|落地:175.198.234.16
@@ -1044,23 +1078,6 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn151821463.opengw.net:1487?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:2|Korea Republic of|15.05|落地:119.193.240.243
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn587535377.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:3|Korea Republic of|97.03|落地:175.214.151.148
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -1078,7 +1095,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn226365648.opengw.net:1202?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:5|Korea Republic of|93.20|落地:39.122.7.119
+- name: 家宽|纯净度:8|Korea Republic of|89.32|落地:175.113.163.59
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -1092,7 +1109,24 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn841245340.opengw.net:995?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn954065459.opengw.net:1954?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:2|Korea Republic of|15.05|落地:119.193.240.243
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn587535377.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:2|Korea Republic of|645.72|落地:121.128.34.199
@@ -1129,6 +1163,23 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn763610422.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:5|Korea Republic of|93.20|落地:39.122.7.119
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn841245340.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:9|Korea Republic of|75.42|落地:121.178.46.161
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -1163,24 +1214,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn546914302.opengw.net:1338?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:8|Korea Republic of|85.59|落地:121.184.123.115
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn499499703.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: Korea Republic of|6.04
+- name: 家宽|纯净度:0|Korea Republic of|6.04|落地:175.214.216.169
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -1195,23 +1229,6 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn853978724.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:88|Korea Republic of|16.84|落地:220.149.155.115
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn237071145.opengw.net:1726?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:5|Korea Republic of|89.33|落地:221.146.158.56
@@ -1231,6 +1248,40 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn107768805.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
+- name: Korea Republic of|425.79
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn281352524.opengw.net:1821?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:88|Korea Republic of|16.84|落地:220.149.155.115
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn237071145.opengw.net:1726?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:2|Korea Republic of|372.83|落地:119.194.46.117
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -1246,23 +1297,6 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn436828976.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:10|Korea Republic of|425.79|落地:211.198.239.92
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn281352524.opengw.net:1821?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:9|Korea Republic of|387.86|落地:125.186.166.172
@@ -1282,6 +1316,23 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn391215403.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:2|Korea Republic of|14.54|落地:115.21.219.185
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn709191086.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:5|Korea Republic of|608.06|落地:124.61.46.28
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -1299,7 +1350,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn965205483.opengw.net:1800?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:2|Korea Republic of|14.54|落地:115.21.219.185
+- name: Korea Republic of|85.59
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -1313,7 +1364,7 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn709191086.opengw.net:995?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn499499703.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:10|Korea Republic of|98.89|落地:14.56.110.143
@@ -1333,24 +1384,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn414350235.opengw.net:1446?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:3|Korea Republic of|163.43|落地:183.99.109.76
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn189075188.opengw.net:1737?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:2|Korea Republic of|40.02|落地:59.30.209.57
+- name: Korea Republic of|40.02
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -1384,7 +1418,24 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn233024983.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:4|Korea Republic of|782.13|落地:211.195.88.122
+- name: 家宽|纯净度:3|Korea Republic of|163.43|落地:183.99.109.76
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn189075188.opengw.net:1737?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Korea Republic of|782.13
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -1399,6 +1450,40 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn176473285.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Korea Republic of|463.07
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn831866080.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Korea Republic of|75.47
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn331848338.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:13|Korea Republic of|76.52|落地:1.247.231.142
@@ -1418,41 +1503,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn595298283.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:9|Korea Republic of|463.07|落地:121.162.237.104
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn831866080.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:5|Korea Republic of|75.47|落地:121.179.249.161
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn331848338.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:7|Korea Republic of|345.49|落地:119.195.254.240
+- name: Korea Republic of|345.49
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -1467,6 +1518,23 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn783575401.opengw.net:1414?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:10|Korea Republic of|170.55|落地:118.32.36.189
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn493271266.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:10|Korea Republic of|316.95|落地:220.76.63.6
@@ -1503,23 +1571,6 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn731714666.opengw.net:1951?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:88|Korea Republic of|95.62|落地:121.129.205.146
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn403294661.opengw.net:1592?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:2|Korea Republic of|57.67|落地:211.227.80.33
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -1537,7 +1588,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn116713335.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:9|Korea Republic of|33.72|落地:14.42.230.125
+- name: 家宽|纯净度:88|Korea Republic of|95.62|落地:121.129.205.146
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -1551,7 +1602,7 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn660186524.opengw.net:1915?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn403294661.opengw.net:1592?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:9|Korea Republic of|47.82|落地:121.177.105.70
@@ -1569,6 +1620,23 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn485780034.opengw.net:1710?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Korea Republic of|33.72
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn660186524.opengw.net:1915?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 机房|纯净度:2|Korea Republic of|417.63|落地:182.172.196.51
@@ -1622,23 +1690,6 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn461782020.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:3|Korea Republic of|77.66|落地:211.174.64.187
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn521310356.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:1|Korea Republic of|53.49|落地:112.170.131.60
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -1673,6 +1724,23 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn189811863.opengw.net:1781?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:3|Korea Republic of|77.66|落地:211.174.64.187
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn521310356.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:1|Korea Republic of|334.02|落地:221.144.30.91
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -1688,6 +1756,23 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn368694634.opengw.net:1545?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:3|Korea Republic of|461.48|落地:59.2.56.216
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn824438320.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:3|Korea Republic of|789.01|落地:119.195.5.40
@@ -1707,6 +1792,23 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn313325973.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:3|Korea Republic of|106.91|落地:220.117.34.243
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn916638706.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:3|Korea Republic of|101.79|落地:121.133.123.215
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -1722,23 +1824,6 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn905823011.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: Korea Republic of|53.29
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn981185492.opengw.net:1623?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:2|Korea Republic of|515.53|落地:183.104.127.48
@@ -1758,7 +1843,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn244218273.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:7|Korea Republic of|75.83|落地:220.70.53.214
+- name: 家宽|纯净度:2|Korea Republic of|53.29|落地:122.199.109.234
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -1772,7 +1857,7 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn709505933.opengw.net:995?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn981185492.opengw.net:1623?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:9|Korea Republic of|404.03|落地:211.227.1.10
@@ -1792,6 +1877,23 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn705444347.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:7|Korea Republic of|75.83|落地:220.70.53.214
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn709505933.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:1|Korea Republic of|184.15|落地:221.145.126.252
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -1807,6 +1909,40 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn846765047.opengw.net:1906?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:4|Korea Republic of|288.74|落地:220.70.189.77
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn881958410.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:2|Korea Republic of|19.09|落地:210.100.131.144
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn703603871.opengw.net:1272?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:9|Korea Republic of|14.35|落地:14.41.13.198
@@ -1826,40 +1962,6 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn584376168.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: Korea Republic of|382.05
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn402846522.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:4|Korea Republic of|77.96|落地:183.108.199.213
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn864577769.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:12|Korea Republic of|724.10|落地:211.228.156.105
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -1875,6 +1977,23 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn958993796.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:4|Korea Republic of|382.05|落地:220.79.186.207
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn402846522.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:3|Korea Republic of|6.85|落地:210.91.252.27
@@ -1894,6 +2013,23 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn268281011.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:4|Korea Republic of|77.96|落地:183.108.199.213
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn864577769.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:5|Korea Republic of|368.95|落地:61.98.1.121
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -1911,7 +2047,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn699620341.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:1|Korea Republic of|93.98|落地:221.150.82.30
+- name: Korea Republic of|241.12
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -1925,10 +2061,10 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn675512812.opengw.net:1422?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn271019003.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:1|Korea Republic of|360.85|落地:58.127.236.242
+- name: 家宽|纯净度:4|Korea Republic of|85.75|落地:222.118.238.58
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -1942,7 +2078,7 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn103379316.opengw.net:1727?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn658559967.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:10|Korea Republic of|95.93|落地:58.77.30.52
@@ -1979,57 +2115,6 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn345053404.opengw.net:1491?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:8|Korea Republic of|42.61|落地:121.140.235.198
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn581884957.opengw.net:1524?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:4|Korea Republic of|85.75|落地:222.118.238.58
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn658559967.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:7|Korea Republic of|18.57|落地:119.207.13.123
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn434117392.opengw.net:1845?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:3|Korea Republic of|11.73|落地:124.51.253.126
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -2045,23 +2130,6 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn952825947.opengw.net:1419?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:2|Korea Republic of|860.68|落地:182.226.193.209
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn676945411.opengw.net:1236?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:3|Korea Republic of|307.92|落地:175.196.80.118
@@ -2081,7 +2149,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn931925149.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 机房|纯净度:16|Korea Republic of|83.62|落地:61.96.70.113
+- name: 家宽|纯净度:2|Korea Republic of|860.68|落地:182.226.193.209
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -2095,7 +2163,24 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn895630926.opengw.net:1904?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn676945411.opengw.net:1236?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:8|Korea Republic of|53.43|落地:222.111.8.2
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn644344996.opengw.net:1628?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:1|Korea Republic of|82.29|落地:59.14.213.103
@@ -2132,7 +2217,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn159968617.opengw.net:1674?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: Korea Republic of|53.43
+- name: 机房|纯净度:16|Korea Republic of|83.62|落地:61.96.70.113
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -2146,10 +2231,10 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn644344996.opengw.net:1628?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn895630926.opengw.net:1904?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:6|Korea Republic of|193.24|落地:112.170.67.228
+- name: Korea Republic of|42.61
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -2163,10 +2248,78 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn930870617.opengw.net:1299?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn581884957.opengw.net:1524?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:2|Korea Republic of|11.17|落地:112.168.206.160
+- name: Korea Republic of|18.57
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn434117392.opengw.net:1845?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:4|Korea Republic of|77.22|落地:14.42.21.70
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn201334478.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:60|Korea Republic of|80.45|落地:218.150.22.94
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn510026355.opengw.net:1356?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:4|Korea Republic of|450.89|落地:211.187.165.75
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn849621319.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Korea Republic of|11.17
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -2200,7 +2353,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn960418984.opengw.net:1679?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:5|Korea Republic of|409.66|落地:118.58.58.238
+- name: 家宽|纯净度:6|Korea Republic of|464.36|落地:121.148.48.93
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -2214,7 +2367,7 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn716995869.opengw.net:1851?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn138569675.opengw.net:1652?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:0|Korea Republic of|26.96|落地:27.126.52.47
@@ -2268,7 +2421,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn962393328.opengw.net:1585?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:10|Korea Republic of|91.36|落地:121.170.6.117
+- name: 家宽|纯净度:6|Korea Republic of|334.02|落地:118.32.163.131
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -2282,10 +2435,10 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn542831898.opengw.net:1631?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn846219528.opengw.net:1889?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:3|Korea Republic of|79.83|落地:59.20.110.131
+- name: Korea Republic of|409.66
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -2299,41 +2452,7 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn474602972.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:80|Korea Republic of|342.03|落地:59.8.32.44
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn633946009.opengw.net:1353?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:3|Korea Republic of|10.37|落地:175.195.243.160
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn953140495.opengw.net:995?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn716995869.opengw.net:1851?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:3|Korea Republic of|93.71|落地:121.144.188.230
@@ -2353,7 +2472,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn646962856.opengw.net:1567?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 机房|纯净度:53|Korea Republic of|420.87|落地:123.108.169.215
+- name: Korea Republic of|10.37
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -2367,7 +2486,41 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn410657771.opengw.net:1791?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn953140495.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Korea Republic of|342.03
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn633946009.opengw.net:1353?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:3|Korea Republic of|79.83|落地:59.20.110.131
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn474602972.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:7|Korea Republic of|54.95|落地:121.159.128.45
@@ -2387,7 +2540,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn693430237.opengw.net:1835?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:80|Korea Republic of|606.81|落地:119.205.53.241
+- name: Korea Republic of|606.81
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -2404,7 +2557,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn716109838.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: Korea Republic of|10.78
+- name: 家宽|纯净度:5|Korea Republic of|10.78|落地:59.19.169.164
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -2419,40 +2572,6 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn338885301.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:4|Korea Republic of|28.90|落地:175.215.86.26
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn622620051.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:3|Korea Republic of|27.19|落地:218.144.70.173
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn736554005.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:3|Korea Republic of|69.92|落地:125.133.234.180
@@ -2489,6 +2608,23 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn780884596.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:4|Korea Republic of|28.90|落地:175.215.86.26
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn622620051.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:1|Korea Republic of|7.58|落地:121.158.222.27
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -2504,125 +2640,6 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn380769701.opengw.net:1381?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:6|Korea Republic of|310.90|落地:59.16.161.66
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn658524777.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:1|Korea Republic of|694.07|落地:112.72.196.6
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn738072531.opengw.net:1528?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:3|Korea Republic of|93.92|落地:118.38.172.121
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn911199571.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:14|Korea Republic of|40.85|落地:220.123.192.80
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn231713230.opengw.net:1673?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:1|Korea Republic of|100.84|落地:121.149.141.149
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn727893093.opengw.net:1292?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:3|Korea Republic of|39.10|落地:118.40.87.213
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn574975311.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:3|Korea Republic of|72.77|落地:58.233.2.51
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn462059193.opengw.net:1868?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:8|Korea Republic of|102.55|落地:211.215.238.48
@@ -2642,6 +2659,91 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn386579301.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
+- name: Korea Republic of|694.07
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn738072531.opengw.net:1528?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:3|Korea Republic of|72.77|落地:58.233.2.51
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn462059193.opengw.net:1868?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Korea Republic of|100.84
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn727893093.opengw.net:1292?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:14|Korea Republic of|40.85|落地:220.123.192.80
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn231713230.opengw.net:1673?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:3|Korea Republic of|39.10|落地:118.40.87.213
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn574975311.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:9|Korea Republic of|243.90|落地:110.13.26.111
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -2657,57 +2759,6 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn890613352.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:2|Korea Republic of|84.48|落地:211.227.98.170
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn433911896.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:8|Korea Republic of|30.68|落地:218.147.96.172
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn763212161.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: Korea Republic of|67.65
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn260016517.opengw.net:1295?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:4|Korea Republic of|741.38|落地:116.47.77.14
@@ -2727,7 +2778,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn431768022.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:4|Korea Republic of|241.71|落地:121.130.138.116
+- name: 家宽|纯净度:2|Korea Republic of|84.48|落地:211.227.98.170
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -2741,7 +2792,58 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn507425390.opengw.net:1702?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn433911896.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:6|Korea Republic of|67.65|落地:121.186.186.97
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn260016517.opengw.net:1295?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:3|Korea Republic of|93.92|落地:118.38.172.121
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn911199571.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:8|Korea Republic of|30.68|落地:218.147.96.172
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn763212161.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:9|Korea Republic of|721.17|落地:220.80.129.191
@@ -2759,6 +2861,40 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn883356300.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:4|Korea Republic of|241.71|落地:121.130.138.116
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn507425390.opengw.net:1702?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:5|Korea Republic of|90.94|落地:221.154.247.168
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn851495240.opengw.net:1415?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:3|Korea Republic of|11.62|落地:112.186.140.145
@@ -2812,7 +2948,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn754956623.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:7|Korea Republic of|626.88|落地:61.82.111.10
+- name: 家宽|纯净度:3|Korea Republic of|431.89|落地:14.33.34.12
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -2826,7 +2962,7 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn917723222.opengw.net:995?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn873158335.opengw.net:1470?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:4|Korea Republic of|230.67|落地:218.239.169.226
@@ -2863,7 +2999,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn285635605.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:12|Korea Republic of|170.80|落地:119.193.158.212
+- name: Korea Republic of|7.51
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -2877,7 +3013,7 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn289423807.opengw.net:995?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn853332775.opengw.net:1964?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:8|Korea Republic of|739.89|落地:220.127.170.69
@@ -2897,7 +3033,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn781709256.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:14|Korea Republic of|355.91|落地:210.178.21.127
+- name: Korea Republic of|355.91
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -2912,23 +3048,6 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn451643961.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:7|Korea Republic of|490.76|落地:211.213.23.156
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn979052232.opengw.net:1366?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:2|Korea Republic of|92.89|落地:211.245.214.227
@@ -2948,7 +3067,24 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn259391927.opengw.net:1406?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:10|Korea Republic of|8.03|落地:221.166.186.11
+- name: 家宽|纯净度:3|Korea Republic of|170.64|落地:121.138.122.21
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn312155019.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Korea Republic of|8.03
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -2982,7 +3118,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn240836128.opengw.net:1850?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: Korea Republic of|170.64
+- name: Korea Republic of|207.47
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -2996,7 +3132,41 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn312155019.opengw.net:995?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn351862803.opengw.net:1319?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Korea Republic of|405.09
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn837518130.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Korea Republic of|120.04
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn629284824.opengw.net:1630?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:3|Korea Republic of|650.11|落地:218.157.81.93
@@ -3014,91 +3184,6 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn458579437.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:69|Korea Republic of|743.09|落地:125.135.231.203
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn870454553.opengw.net:1892?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:8|Korea Republic of|207.47|落地:121.179.138.104
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn351862803.opengw.net:1319?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: Korea Republic of|363.59
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn193301195.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:1|Korea Republic of|405.09|落地:175.212.246.170
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn837518130.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:2|Korea Republic of|120.04|落地:220.123.230.229
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn629284824.opengw.net:1630?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:2|Korea Republic of|113.56|落地:218.158.82.114
@@ -3135,6 +3220,23 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn630773891.opengw.net:1322?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:1|Korea Republic of|93.17|落地:121.128.227.42
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn457942597.opengw.net:1900?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:9|Korea Republic of|83.93|落地:1.220.254.251
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -3152,7 +3254,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn440642915.opengw.net:1947?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:1|Korea Republic of|93.17|落地:121.128.227.42
+- name: 家宽|纯净度:4|Korea Republic of|363.59|落地:112.72.196.83
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -3166,7 +3268,24 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn457942597.opengw.net:1900?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn193301195.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:3|Korea Republic of|74.26|落地:121.160.105.19
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn512022211.opengw.net:1675?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:10|Korea Republic of|67.01|落地:220.78.29.68
@@ -3186,7 +3305,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn761837620.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:1|Korea Republic of|412.83|落地:221.153.159.116
+- name: 家宽|纯净度:6|Korea Republic of|269.13|落地:175.196.204.98
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -3200,24 +3319,7 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn742205775.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:3|Korea Republic of|801.18|落地:175.210.112.44
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn508965699.opengw.net:995?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn171444591.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:7|Korea Republic of|517.54|落地:121.136.82.81
@@ -3237,7 +3339,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn933832808.opengw.net:1915?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:4|Korea Republic of|95.06|落地:211.63.136.119
+- name: 家宽|纯净度:3|Korea Republic of|95.89|落地:122.38.47.228
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -3251,24 +3353,7 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn100779275.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:6|Korea Republic of|269.13|落地:175.196.204.98
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn171444591.opengw.net:995?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn415401466.opengw.net:1386?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:5|Korea Republic of|112.18|落地:59.28.8.40
@@ -3288,40 +3373,6 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn468282901.opengw.net:1508?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:3|Korea Republic of|95.89|落地:122.38.47.228
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn415401466.opengw.net:1386?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:3|Korea Republic of|92.36|落地:182.221.217.73
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn485425448.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:2|Korea Republic of|111.56|落地:218.146.184.184
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -3337,74 +3388,6 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn549895847.opengw.net:995?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:5|Korea Republic of|83.89|落地:114.200.89.151
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn372434275.opengw.net:1832?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:4|Korea Republic of|94.29|落地:61.41.136.244
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn170723006.opengw.net:1941?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:1|Korea Republic of|85.55|落地:122.254.245.109
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn362823699.opengw.net:1436?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:6|Korea Republic of|94.01|落地:123.200.94.11
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn943218848.opengw.net:1956?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:4|Korea Republic of|73.06|落地:27.113.113.177
@@ -3424,6 +3407,23 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn805306369.opengw.net:1344?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:3|Korea Republic of|92.36|落地:182.221.217.73
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn485425448.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:8|Korea Republic of|70.34|落地:218.155.155.250
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -3439,6 +3439,23 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn277841382.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:5|Korea Republic of|83.89|落地:114.200.89.151
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn372434275.opengw.net:1832?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:3|Korea Republic of|36.31|落地:211.107.225.137
@@ -3475,6 +3492,23 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn108955624.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:4|Korea Republic of|25.29|落地:222.232.238.186
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn283397564.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:2|Korea Republic of|719.22|落地:211.51.79.22
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -3490,23 +3524,6 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn531263335.opengw.net:1504?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:8|Korea Republic of|468.80|落地:1.236.250.72
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn498800789.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:2|Korea Republic of|814.67|落地:110.15.34.238
@@ -3526,23 +3543,6 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn532221228.opengw.net:1930?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:2|Korea Republic of|459.41|落地:118.220.158.237
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn304147279.opengw.net:1509?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:2|Korea Republic of|454.75|落地:121.136.103.36
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -3560,7 +3560,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn572729078.opengw.net:1250?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:1|Korea Republic of|96.44|落地:203.229.91.15
+- name: 家宽|纯净度:8|Korea Republic of|468.80|落地:1.236.250.72
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -3574,10 +3574,10 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn157099394.opengw.net:1949?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn498800789.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:6|Korea Republic of|40.43|落地:210.104.184.72
+- name: Korea Republic of|89.40
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -3591,7 +3591,7 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn520752344.opengw.net:1736?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn610299405.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:9|Korea Republic of|6.45|落地:14.45.12.241
@@ -3628,6 +3628,40 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn209711346.opengw.net:1243?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
+- name: Korea Republic of|402.09
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn425133476.opengw.net:1250?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:1|Korea Republic of|96.44|落地:203.229.91.15
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn157099394.opengw.net:1949?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:5|Korea Republic of|33.18|落地:14.48.190.61
   type: vless
   server: singgcdn.singgnetworkcdn.com
@@ -3645,7 +3679,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn912920644.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:1|Korea Republic of|89.40|落地:220.119.155.63
+- name: 家宽|纯净度:2|Korea Republic of|459.41|落地:118.220.158.237
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -3659,227 +3693,409 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn610299405.opengw.net:995?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn304147279.opengw.net:1509?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:2|Korea Republic of|293.28|落地:175.122.73.80
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn819358376.opengw.net:1298?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:1|Korea Republic of|311.91|落地:125.176.199.130
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn582814215.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Korea Republic of|80.68
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn314046814.opengw.net:1792?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:1|Korea Republic of|213.25|落地:211.44.95.134
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn639167704.opengw.net:1733?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:5|Korea Republic of|96.85|落地:218.51.164.218
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn694210248.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:8|Korea Republic of|38.52|落地:183.109.169.244
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn761392916.opengw.net:1815?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Korea Republic of|73.31
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn631682929.opengw.net:1985?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:29|Korea Republic of|50.33|落地:211.216.232.155
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn616029501.opengw.net:1663?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:2|Korea Republic of|25.77|落地:118.42.152.221
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn990249039.opengw.net:1374?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:6|Korea Republic of|365.24|落地:218.147.95.101
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn915697219.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 proxy-groups:
 - name: vpngate-手动选择
   type: select
   proxies:
-  - 家宽|纯净度:1|Korea Republic of|65.02|落地:112.187.218.114
   - 家宽|纯净度:2|Korea Republic of|12.58|落地:182.220.175.195
-  - 家宽|纯净度:4|Korea Republic of|73.12|落地:211.245.102.129
-  - 家宽|纯净度:12|Korea Republic of|8.71|落地:220.89.214.125
-  - 家宽|纯净度:4|Korea Republic of|139.45|落地:59.6.114.202
+  - 家宽|纯净度:1|Korea Republic of|65.02|落地:112.187.218.114
+  - 家宽|纯净度:10|Korea Republic of|122.5|落地:121.148.24.7
   - 家宽|纯净度:8|Korea Republic of|544.10|落地:119.196.23.11
   - 家宽|纯净度:5|Korea Republic of|26.06|落地:175.198.244.29
-  - Korea Republic of|255.18
-  - 家宽|纯净度:16|Korea Republic of|72.65|落地:221.160.132.214
-  - 家宽|纯净度:3|Korea Republic of|100.38|落地:14.47.79.84
+  - Korea Republic of|100.38
   - 家宽|纯净度:4|Korea Republic of|47.80|落地:119.193.21.235
-  - 家宽|纯净度:4|Korea Republic of|5.85|落地:218.152.3.95
-  - 家宽|纯净度:5|Korea Republic of|330.03|落地:118.37.55.217
   - 家宽|纯净度:28|Korea Republic of|96.42|落地:1.244.51.251
-  - 家宽|纯净度:6|Korea Republic of|76.90|落地:121.175.117.96
-  - 家宽|纯净度:1|Korea Republic of|95.09|落地:123.109.244.227
+  - 家宽|纯净度:4|Korea Republic of|5.85|落地:218.152.3.95
   - 家宽|纯净度:2|Korea Republic of|241.37|落地:221.154.201.165
-  - Korea Republic of|62.82
+  - 家宽|纯净度:6|Korea Republic of|76.90|落地:121.175.117.96
+  - Korea Republic of|8.71
+  - 家宽|纯净度:1|Korea Republic of|95.09|落地:123.109.244.227
+  - 家宽|纯净度:5|Korea Republic of|330.03|落地:118.37.55.217
+  - 家宽|纯净度:5|Korea Republic of|62.82|落地:112.167.64.3
   - 家宽|纯净度:3|Korea Republic of|783.50|落地:119.195.163.98
+  - Korea Republic of|255.18
   - 家宽|纯净度:3|Korea Republic of|23.27|落地:121.161.33.240
+  - Korea Republic of|750.58
+  - Korea Republic of|72.65
+  - 家宽|纯净度:3|Korea Republic of|94.68|落地:220.125.231.115
   - 家宽|纯净度:1|Korea Republic of|735.24|落地:182.218.30.18
   - 家宽|纯净度:1|Korea Republic of|676.31|落地:211.197.16.109
-  - 家宽|纯净度:1|Korea Republic of|54.07|落地:121.189.172.218
-  - Korea Republic of|96.07
   - 家宽|纯净度:4|Korea Republic of|78.62|落地:220.92.176.69
   - 家宽|纯净度:4|Korea Republic of|52.05|落地:222.120.134.151
-  - 家宽|纯净度:6|Korea Republic of|750.58|落地:125.240.231.54
-  - 家宽|纯净度:8|Korea Republic of|515.13|落地:119.196.23.11
   - 家宽|纯净度:14|Korea Republic of|409.94|落地:1.214.177.206
-  - Korea Republic of|94.52
+  - 机房|纯净度:23|Korea Republic of|94.52|落地:211.238.145.82
+  - 家宽|纯净度:1|Korea Republic of|54.07|落地:121.189.172.218
+  - 家宽|纯净度:6|Korea Republic of|96.07|落地:118.34.210.174
+  - 家宽|纯净度:8|Korea Republic of|57.55|落地:211.226.71.219
+  - 家宽|纯净度:8|Korea Republic of|515.13|落地:119.196.23.11
   - 家宽|纯净度:4|Korea Republic of|211.90|落地:39.115.15.14
   - 家宽|纯净度:2|Korea Republic of|469.47|落地:61.253.81.10
-  - 家宽|纯净度:7|Korea Republic of|6.59|落地:220.77.247.211
+  - Korea Republic of|6.59
   - 家宽|纯净度:9|Korea Republic of|148.44|落地:175.214.31.72
   - 家宽|纯净度:4|Korea Republic of|32.93|落地:115.22.223.14
-  - 家宽|纯净度:0|Korea Republic of|89.67|落地:182.214.53.18
-  - 家宽|纯净度:7|Korea Republic of|460.12|落地:222.120.189.180
-  - 家宽|纯净度:4|Korea Republic of|6.78|落地:222.120.20.69
-  - 家宽|纯净度:6|Korea Republic of|81.63|落地:121.189.231.253
+  - Korea Republic of|89.67
+  - 家宽|纯净度:8|Korea Republic of|91.64|落地:182.231.233.37
   - 家宽|纯净度:6|Korea Republic of|65.24|落地:125.134.202.104
   - 家宽|纯净度:8|Korea Republic of|282.80|落地:123.143.79.15
+  - 家宽|纯净度:7|Korea Republic of|460.12|落地:222.120.189.180
+  - 家宽|纯净度:6|Korea Republic of|81.63|落地:121.189.231.253
+  - 家宽|纯净度:7|Korea Republic of|250.18|落地:211.226.234.185
   - 家宽|纯净度:29|Korea Republic of|476.31|落地:118.42.14.84
   - 机房|纯净度:12|Korea Republic of|65.21|落地:118.91.4.55
-  - 家宽|纯净度:4|Korea Republic of|277.59|落地:211.221.198.244
+  - Korea Republic of|277.59
+  - 家宽|纯净度:4|Korea Republic of|92.92|落地:175.200.186.38
   - 家宽|纯净度:7|Korea Republic of|36.48|落地:61.82.162.106
-  - 家宽|纯净度:7|Korea Republic of|250.18|落地:211.226.234.185
   - 家宽|纯净度:2|Korea Republic of|326.81|落地:116.37.252.7
+  - 家宽|纯净度:6|Korea Republic of|137.09|落地:210.97.97.242
   - 家宽|纯净度:24|Korea Republic of|26.65|落地:112.172.121.216
-  - 家宽|纯净度:7|Korea Republic of|459.28|落地:221.165.229.38
   - 家宽|纯净度:4|Korea Republic of|84.18|落地:121.139.54.121
   - 家宽|纯净度:6|Korea Republic of|8.89|落地:211.38.57.123
   - 家宽|纯净度:2|Korea Republic of|727.36|落地:182.210.241.47
-  - Korea Republic of|157.44
-  - 家宽|纯净度:3|Korea Republic of|102.52|落地:39.115.217.57
+  - 家宽|纯净度:9|Korea Republic of|157.44|落地:211.52.54.185
   - 家宽|纯净度:2|Korea Republic of|81.05|落地:59.14.221.13
+  - 家宽|纯净度:3|Korea Republic of|102.52|落地:39.115.217.57
+  - 家宽|纯净度:7|Korea Republic of|459.28|落地:221.165.229.38
+  - Korea Republic of|8.87
   - 家宽|纯净度:0|Korea Republic of|84.19|落地:222.99.195.19
-  - 家宽|纯净度:6|Korea Republic of|8.87|落地:14.47.68.46
-  - 家宽|纯净度:8|Korea Republic of|89.32|落地:175.113.163.59
-  - 家宽|纯净度:73|Korea Republic of|92.79|落地:120.29.134.202
+  - 家宽|纯净度:9|Korea Republic of|95.21|落地:220.122.181.19
   - 家宽|纯净度:4|Korea Republic of|96.77|落地:175.198.234.16
-  - 家宽|纯净度:2|Korea Republic of|15.05|落地:119.193.240.243
   - 家宽|纯净度:3|Korea Republic of|97.03|落地:175.214.151.148
-  - 家宽|纯净度:5|Korea Republic of|93.20|落地:39.122.7.119
+  - 家宽|纯净度:8|Korea Republic of|89.32|落地:175.113.163.59
+  - 家宽|纯净度:2|Korea Republic of|15.05|落地:119.193.240.243
   - 家宽|纯净度:2|Korea Republic of|645.72|落地:121.128.34.199
   - 家宽|纯净度:3|Korea Republic of|191.49|落地:121.158.106.164
+  - 家宽|纯净度:5|Korea Republic of|93.20|落地:39.122.7.119
   - 家宽|纯净度:9|Korea Republic of|75.42|落地:121.178.46.161
   - 家宽|纯净度:7|Korea Republic of|224.63|落地:27.119.130.58
-  - 家宽|纯净度:8|Korea Republic of|85.59|落地:121.184.123.115
-  - Korea Republic of|6.04
-  - 家宽|纯净度:88|Korea Republic of|16.84|落地:220.149.155.115
+  - 家宽|纯净度:0|Korea Republic of|6.04|落地:175.214.216.169
   - 家宽|纯净度:5|Korea Republic of|89.33|落地:221.146.158.56
+  - Korea Republic of|425.79
+  - 家宽|纯净度:88|Korea Republic of|16.84|落地:220.149.155.115
   - 家宽|纯净度:2|Korea Republic of|372.83|落地:119.194.46.117
-  - 家宽|纯净度:10|Korea Republic of|425.79|落地:211.198.239.92
   - 家宽|纯净度:9|Korea Republic of|387.86|落地:125.186.166.172
-  - 家宽|纯净度:5|Korea Republic of|608.06|落地:124.61.46.28
   - 家宽|纯净度:2|Korea Republic of|14.54|落地:115.21.219.185
+  - 家宽|纯净度:5|Korea Republic of|608.06|落地:124.61.46.28
+  - Korea Republic of|85.59
   - 家宽|纯净度:10|Korea Republic of|98.89|落地:14.56.110.143
-  - 家宽|纯净度:3|Korea Republic of|163.43|落地:183.99.109.76
-  - 家宽|纯净度:2|Korea Republic of|40.02|落地:59.30.209.57
+  - Korea Republic of|40.02
   - 家宽|纯净度:0|Korea Republic of|305.66|落地:218.148.117.199
-  - 家宽|纯净度:4|Korea Republic of|782.13|落地:211.195.88.122
+  - 家宽|纯净度:3|Korea Republic of|163.43|落地:183.99.109.76
+  - Korea Republic of|782.13
+  - Korea Republic of|463.07
+  - Korea Republic of|75.47
   - 家宽|纯净度:13|Korea Republic of|76.52|落地:1.247.231.142
-  - 家宽|纯净度:9|Korea Republic of|463.07|落地:121.162.237.104
-  - 家宽|纯净度:5|Korea Republic of|75.47|落地:121.179.249.161
-  - 家宽|纯净度:7|Korea Republic of|345.49|落地:119.195.254.240
+  - Korea Republic of|345.49
+  - 家宽|纯净度:10|Korea Republic of|170.55|落地:118.32.36.189
   - 家宽|纯净度:10|Korea Republic of|316.95|落地:220.76.63.6
   - 家宽|纯净度:4|Korea Republic of|94.56|落地:125.240.229.103
-  - 家宽|纯净度:88|Korea Republic of|95.62|落地:121.129.205.146
   - 家宽|纯净度:2|Korea Republic of|57.67|落地:211.227.80.33
-  - 家宽|纯净度:9|Korea Republic of|33.72|落地:14.42.230.125
+  - 家宽|纯净度:88|Korea Republic of|95.62|落地:121.129.205.146
   - 家宽|纯净度:9|Korea Republic of|47.82|落地:121.177.105.70
+  - Korea Republic of|33.72
   - 机房|纯净度:2|Korea Republic of|417.63|落地:182.172.196.51
   - 家宽|纯净度:4|Korea Republic of|14.88|落地:183.107.123.109
   - 家宽|纯净度:2|Korea Republic of|84.06|落地:180.65.115.60
-  - 家宽|纯净度:3|Korea Republic of|77.66|落地:211.174.64.187
   - 家宽|纯净度:1|Korea Republic of|53.49|落地:112.170.131.60
   - 家宽|纯净度:9|Korea Republic of|75.31|落地:119.193.144.153
+  - 家宽|纯净度:3|Korea Republic of|77.66|落地:211.174.64.187
   - 家宽|纯净度:1|Korea Republic of|334.02|落地:221.144.30.91
+  - 家宽|纯净度:3|Korea Republic of|461.48|落地:59.2.56.216
   - 家宽|纯净度:3|Korea Republic of|789.01|落地:119.195.5.40
+  - 家宽|纯净度:3|Korea Republic of|106.91|落地:220.117.34.243
   - 家宽|纯净度:3|Korea Republic of|101.79|落地:121.133.123.215
-  - Korea Republic of|53.29
   - 家宽|纯净度:2|Korea Republic of|515.53|落地:183.104.127.48
-  - 家宽|纯净度:7|Korea Republic of|75.83|落地:220.70.53.214
+  - 家宽|纯净度:2|Korea Republic of|53.29|落地:122.199.109.234
   - 家宽|纯净度:9|Korea Republic of|404.03|落地:211.227.1.10
+  - 家宽|纯净度:7|Korea Republic of|75.83|落地:220.70.53.214
   - 家宽|纯净度:1|Korea Republic of|184.15|落地:221.145.126.252
+  - 家宽|纯净度:4|Korea Republic of|288.74|落地:220.70.189.77
+  - 家宽|纯净度:2|Korea Republic of|19.09|落地:210.100.131.144
   - 家宽|纯净度:9|Korea Republic of|14.35|落地:14.41.13.198
-  - Korea Republic of|382.05
-  - 家宽|纯净度:4|Korea Republic of|77.96|落地:183.108.199.213
   - 家宽|纯净度:12|Korea Republic of|724.10|落地:211.228.156.105
+  - 家宽|纯净度:4|Korea Republic of|382.05|落地:220.79.186.207
   - 家宽|纯净度:3|Korea Republic of|6.85|落地:210.91.252.27
+  - 家宽|纯净度:4|Korea Republic of|77.96|落地:183.108.199.213
   - 家宽|纯净度:5|Korea Republic of|368.95|落地:61.98.1.121
-  - 家宽|纯净度:1|Korea Republic of|93.98|落地:221.150.82.30
-  - 家宽|纯净度:1|Korea Republic of|360.85|落地:58.127.236.242
+  - Korea Republic of|241.12
+  - 家宽|纯净度:4|Korea Republic of|85.75|落地:222.118.238.58
   - 家宽|纯净度:10|Korea Republic of|95.93|落地:58.77.30.52
   - 家宽|纯净度:6|Korea Republic of|94.84|落地:118.221.75.229
-  - 家宽|纯净度:8|Korea Republic of|42.61|落地:121.140.235.198
-  - 家宽|纯净度:4|Korea Republic of|85.75|落地:222.118.238.58
-  - 家宽|纯净度:7|Korea Republic of|18.57|落地:119.207.13.123
   - 家宽|纯净度:3|Korea Republic of|11.73|落地:124.51.253.126
-  - 家宽|纯净度:2|Korea Republic of|860.68|落地:182.226.193.209
   - 家宽|纯净度:3|Korea Republic of|307.92|落地:175.196.80.118
-  - 机房|纯净度:16|Korea Republic of|83.62|落地:61.96.70.113
+  - 家宽|纯净度:2|Korea Republic of|860.68|落地:182.226.193.209
+  - 家宽|纯净度:8|Korea Republic of|53.43|落地:222.111.8.2
   - 家宽|纯净度:1|Korea Republic of|82.29|落地:59.14.213.103
   - 家宽|纯净度:7|Korea Republic of|87.78|落地:222.112.121.16
-  - Korea Republic of|53.43
-  - 家宽|纯净度:6|Korea Republic of|193.24|落地:112.170.67.228
-  - 家宽|纯净度:2|Korea Republic of|11.17|落地:112.168.206.160
+  - 机房|纯净度:16|Korea Republic of|83.62|落地:61.96.70.113
+  - Korea Republic of|42.61
+  - Korea Republic of|18.57
+  - 家宽|纯净度:4|Korea Republic of|77.22|落地:14.42.21.70
+  - 家宽|纯净度:60|Korea Republic of|80.45|落地:218.150.22.94
+  - 家宽|纯净度:4|Korea Republic of|450.89|落地:211.187.165.75
+  - Korea Republic of|11.17
   - 家宽|纯净度:3|Korea Republic of|738.07|落地:119.197.113.205
-  - 家宽|纯净度:5|Korea Republic of|409.66|落地:118.58.58.238
+  - 家宽|纯净度:6|Korea Republic of|464.36|落地:121.148.48.93
   - 家宽|纯净度:0|Korea Republic of|26.96|落地:27.126.52.47
   - 家宽|纯净度:6|Korea Republic of|440.78|落地:121.152.133.218
   - 家宽|纯净度:1|Korea Republic of|128.35|落地:112.186.53.6
-  - 家宽|纯净度:10|Korea Republic of|91.36|落地:121.170.6.117
-  - 家宽|纯净度:3|Korea Republic of|79.83|落地:59.20.110.131
-  - 家宽|纯净度:80|Korea Republic of|342.03|落地:59.8.32.44
-  - 家宽|纯净度:3|Korea Republic of|10.37|落地:175.195.243.160
+  - 家宽|纯净度:6|Korea Republic of|334.02|落地:118.32.163.131
+  - Korea Republic of|409.66
   - 家宽|纯净度:3|Korea Republic of|93.71|落地:121.144.188.230
-  - 机房|纯净度:53|Korea Republic of|420.87|落地:123.108.169.215
+  - Korea Republic of|10.37
+  - Korea Republic of|342.03
+  - 家宽|纯净度:3|Korea Republic of|79.83|落地:59.20.110.131
   - 家宽|纯净度:7|Korea Republic of|54.95|落地:121.159.128.45
-  - 家宽|纯净度:80|Korea Republic of|606.81|落地:119.205.53.241
-  - Korea Republic of|10.78
-  - 家宽|纯净度:4|Korea Republic of|28.90|落地:175.215.86.26
-  - 家宽|纯净度:3|Korea Republic of|27.19|落地:218.144.70.173
+  - Korea Republic of|606.81
+  - 家宽|纯净度:5|Korea Republic of|10.78|落地:59.19.169.164
   - 家宽|纯净度:3|Korea Republic of|69.92|落地:125.133.234.180
   - 家宽|纯净度:2|Korea Republic of|74.50|落地:59.15.18.145
+  - 家宽|纯净度:4|Korea Republic of|28.90|落地:175.215.86.26
   - 家宽|纯净度:1|Korea Republic of|7.58|落地:121.158.222.27
-  - 家宽|纯净度:6|Korea Republic of|310.90|落地:59.16.161.66
-  - 家宽|纯净度:1|Korea Republic of|694.07|落地:112.72.196.6
-  - 家宽|纯净度:3|Korea Republic of|93.92|落地:118.38.172.121
-  - 家宽|纯净度:14|Korea Republic of|40.85|落地:220.123.192.80
-  - 家宽|纯净度:1|Korea Republic of|100.84|落地:121.149.141.149
-  - 家宽|纯净度:3|Korea Republic of|39.10|落地:118.40.87.213
-  - 家宽|纯净度:3|Korea Republic of|72.77|落地:58.233.2.51
   - 家宽|纯净度:8|Korea Republic of|102.55|落地:211.215.238.48
+  - Korea Republic of|694.07
+  - 家宽|纯净度:3|Korea Republic of|72.77|落地:58.233.2.51
+  - Korea Republic of|100.84
+  - 家宽|纯净度:14|Korea Republic of|40.85|落地:220.123.192.80
+  - 家宽|纯净度:3|Korea Republic of|39.10|落地:118.40.87.213
   - 家宽|纯净度:9|Korea Republic of|243.90|落地:110.13.26.111
-  - 家宽|纯净度:2|Korea Republic of|84.48|落地:211.227.98.170
-  - 家宽|纯净度:8|Korea Republic of|30.68|落地:218.147.96.172
-  - Korea Republic of|67.65
   - 家宽|纯净度:4|Korea Republic of|741.38|落地:116.47.77.14
-  - 家宽|纯净度:4|Korea Republic of|241.71|落地:121.130.138.116
+  - 家宽|纯净度:2|Korea Republic of|84.48|落地:211.227.98.170
+  - 家宽|纯净度:6|Korea Republic of|67.65|落地:121.186.186.97
+  - 家宽|纯净度:3|Korea Republic of|93.92|落地:118.38.172.121
+  - 家宽|纯净度:8|Korea Republic of|30.68|落地:218.147.96.172
   - 家宽|纯净度:9|Korea Republic of|721.17|落地:220.80.129.191
+  - 家宽|纯净度:4|Korea Republic of|241.71|落地:121.130.138.116
+  - 家宽|纯净度:5|Korea Republic of|90.94|落地:221.154.247.168
   - 家宽|纯净度:3|Korea Republic of|11.62|落地:112.186.140.145
   - 家宽|纯净度:1|Korea Republic of|83.51|落地:58.237.142.102
   - 家宽|纯净度:7|Korea Republic of|316.84|落地:182.220.29.125
-  - 家宽|纯净度:7|Korea Republic of|626.88|落地:61.82.111.10
+  - 家宽|纯净度:3|Korea Republic of|431.89|落地:14.33.34.12
   - 家宽|纯净度:4|Korea Republic of|230.67|落地:218.239.169.226
   - 家宽|纯净度:6|Korea Republic of|470.30|落地:39.114.19.174
-  - 家宽|纯净度:12|Korea Republic of|170.80|落地:119.193.158.212
+  - Korea Republic of|7.51
   - 家宽|纯净度:8|Korea Republic of|739.89|落地:220.127.170.69
-  - 家宽|纯净度:14|Korea Republic of|355.91|落地:210.178.21.127
-  - 家宽|纯净度:7|Korea Republic of|490.76|落地:211.213.23.156
+  - Korea Republic of|355.91
   - 家宽|纯净度:2|Korea Republic of|92.89|落地:211.245.214.227
-  - 家宽|纯净度:10|Korea Republic of|8.03|落地:221.166.186.11
+  - 家宽|纯净度:3|Korea Republic of|170.64|落地:121.138.122.21
+  - Korea Republic of|8.03
   - 家宽|纯净度:1|Korea Republic of|86.52|落地:218.55.234.237
-  - Korea Republic of|170.64
+  - Korea Republic of|207.47
+  - Korea Republic of|405.09
+  - Korea Republic of|120.04
   - 家宽|纯净度:3|Korea Republic of|650.11|落地:218.157.81.93
-  - 家宽|纯净度:69|Korea Republic of|743.09|落地:125.135.231.203
-  - 家宽|纯净度:8|Korea Republic of|207.47|落地:121.179.138.104
-  - Korea Republic of|363.59
-  - 家宽|纯净度:1|Korea Republic of|405.09|落地:175.212.246.170
-  - 家宽|纯净度:2|Korea Republic of|120.04|落地:220.123.230.229
   - 家宽|纯净度:2|Korea Republic of|113.56|落地:218.158.82.114
   - Korea Republic of|79.98
-  - 家宽|纯净度:9|Korea Republic of|83.93|落地:1.220.254.251
   - 家宽|纯净度:1|Korea Republic of|93.17|落地:121.128.227.42
+  - 家宽|纯净度:9|Korea Republic of|83.93|落地:1.220.254.251
+  - 家宽|纯净度:4|Korea Republic of|363.59|落地:112.72.196.83
+  - 家宽|纯净度:3|Korea Republic of|74.26|落地:121.160.105.19
   - 家宽|纯净度:10|Korea Republic of|67.01|落地:220.78.29.68
-  - 家宽|纯净度:1|Korea Republic of|412.83|落地:221.153.159.116
-  - 家宽|纯净度:3|Korea Republic of|801.18|落地:175.210.112.44
-  - 家宽|纯净度:7|Korea Republic of|517.54|落地:121.136.82.81
-  - 家宽|纯净度:4|Korea Republic of|95.06|落地:211.63.136.119
   - 家宽|纯净度:6|Korea Republic of|269.13|落地:175.196.204.98
-  - 家宽|纯净度:5|Korea Republic of|112.18|落地:59.28.8.40
+  - 家宽|纯净度:7|Korea Republic of|517.54|落地:121.136.82.81
   - 家宽|纯净度:3|Korea Republic of|95.89|落地:122.38.47.228
-  - 家宽|纯净度:3|Korea Republic of|92.36|落地:182.221.217.73
+  - 家宽|纯净度:5|Korea Republic of|112.18|落地:59.28.8.40
   - 家宽|纯净度:2|Korea Republic of|111.56|落地:218.146.184.184
-  - 家宽|纯净度:5|Korea Republic of|83.89|落地:114.200.89.151
-  - 家宽|纯净度:4|Korea Republic of|94.29|落地:61.41.136.244
-  - 家宽|纯净度:1|Korea Republic of|85.55|落地:122.254.245.109
-  - 家宽|纯净度:6|Korea Republic of|94.01|落地:123.200.94.11
   - 家宽|纯净度:4|Korea Republic of|73.06|落地:27.113.113.177
+  - 家宽|纯净度:3|Korea Republic of|92.36|落地:182.221.217.73
   - 家宽|纯净度:8|Korea Republic of|70.34|落地:218.155.155.250
+  - 家宽|纯净度:5|Korea Republic of|83.89|落地:114.200.89.151
   - 家宽|纯净度:3|Korea Republic of|36.31|落地:211.107.225.137
   - 家宽|纯净度:7|Korea Republic of|38.86|落地:59.30.112.90
+  - 家宽|纯净度:4|Korea Republic of|25.29|落地:222.232.238.186
   - 家宽|纯净度:2|Korea Republic of|719.22|落地:211.51.79.22
-  - 家宽|纯净度:8|Korea Republic of|468.80|落地:1.236.250.72
   - 家宽|纯净度:2|Korea Republic of|814.67|落地:110.15.34.238
-  - 家宽|纯净度:2|Korea Republic of|459.41|落地:118.220.158.237
   - 家宽|纯净度:2|Korea Republic of|454.75|落地:121.136.103.36
-  - 家宽|纯净度:1|Korea Republic of|96.44|落地:203.229.91.15
-  - 家宽|纯净度:6|Korea Republic of|40.43|落地:210.104.184.72
+  - 家宽|纯净度:8|Korea Republic of|468.80|落地:1.236.250.72
+  - Korea Republic of|89.40
   - 家宽|纯净度:9|Korea Republic of|6.45|落地:14.45.12.241
   - 家宽|纯净度:5|Korea Republic of|53.31|落地:39.122.143.188
+  - Korea Republic of|402.09
+  - 家宽|纯净度:1|Korea Republic of|96.44|落地:203.229.91.15
   - 家宽|纯净度:5|Korea Republic of|33.18|落地:14.48.190.61
-  - 家宽|纯净度:1|Korea Republic of|89.40|落地:220.119.155.63
+  - 家宽|纯净度:2|Korea Republic of|459.41|落地:118.220.158.237
+  - 家宽|纯净度:2|Korea Republic of|293.28|落地:175.122.73.80
+  - 家宽|纯净度:1|Korea Republic of|311.91|落地:125.176.199.130
+  - Korea Republic of|80.68
+  - 家宽|纯净度:1|Korea Republic of|213.25|落地:211.44.95.134
+  - 家宽|纯净度:5|Korea Republic of|96.85|落地:218.51.164.218
+  - 家宽|纯净度:8|Korea Republic of|38.52|落地:183.109.169.244
+  - Korea Republic of|73.31
+  - 家宽|纯净度:29|Korea Republic of|50.33|落地:211.216.232.155
+  - 家宽|纯净度:2|Korea Republic of|25.77|落地:118.42.152.221
+  - 家宽|纯净度:6|Korea Republic of|365.24|落地:218.147.95.101
   - DIRECT
 - name: vpngate-自动选择
   type: url-test
@@ -3888,220 +4104,232 @@ proxy-groups:
   tolerance: 50
   lazy: true
   proxies:
-  - 家宽|纯净度:1|Korea Republic of|65.02|落地:112.187.218.114
   - 家宽|纯净度:2|Korea Republic of|12.58|落地:182.220.175.195
-  - 家宽|纯净度:4|Korea Republic of|73.12|落地:211.245.102.129
-  - 家宽|纯净度:12|Korea Republic of|8.71|落地:220.89.214.125
-  - 家宽|纯净度:4|Korea Republic of|139.45|落地:59.6.114.202
+  - 家宽|纯净度:1|Korea Republic of|65.02|落地:112.187.218.114
+  - 家宽|纯净度:10|Korea Republic of|122.5|落地:121.148.24.7
   - 家宽|纯净度:8|Korea Republic of|544.10|落地:119.196.23.11
   - 家宽|纯净度:5|Korea Republic of|26.06|落地:175.198.244.29
-  - Korea Republic of|255.18
-  - 家宽|纯净度:16|Korea Republic of|72.65|落地:221.160.132.214
-  - 家宽|纯净度:3|Korea Republic of|100.38|落地:14.47.79.84
+  - Korea Republic of|100.38
   - 家宽|纯净度:4|Korea Republic of|47.80|落地:119.193.21.235
-  - 家宽|纯净度:4|Korea Republic of|5.85|落地:218.152.3.95
-  - 家宽|纯净度:5|Korea Republic of|330.03|落地:118.37.55.217
   - 家宽|纯净度:28|Korea Republic of|96.42|落地:1.244.51.251
-  - 家宽|纯净度:6|Korea Republic of|76.90|落地:121.175.117.96
-  - 家宽|纯净度:1|Korea Republic of|95.09|落地:123.109.244.227
+  - 家宽|纯净度:4|Korea Republic of|5.85|落地:218.152.3.95
   - 家宽|纯净度:2|Korea Republic of|241.37|落地:221.154.201.165
-  - Korea Republic of|62.82
+  - 家宽|纯净度:6|Korea Republic of|76.90|落地:121.175.117.96
+  - Korea Republic of|8.71
+  - 家宽|纯净度:1|Korea Republic of|95.09|落地:123.109.244.227
+  - 家宽|纯净度:5|Korea Republic of|330.03|落地:118.37.55.217
+  - 家宽|纯净度:5|Korea Republic of|62.82|落地:112.167.64.3
   - 家宽|纯净度:3|Korea Republic of|783.50|落地:119.195.163.98
+  - Korea Republic of|255.18
   - 家宽|纯净度:3|Korea Republic of|23.27|落地:121.161.33.240
+  - Korea Republic of|750.58
+  - Korea Republic of|72.65
+  - 家宽|纯净度:3|Korea Republic of|94.68|落地:220.125.231.115
   - 家宽|纯净度:1|Korea Republic of|735.24|落地:182.218.30.18
   - 家宽|纯净度:1|Korea Republic of|676.31|落地:211.197.16.109
-  - 家宽|纯净度:1|Korea Republic of|54.07|落地:121.189.172.218
-  - Korea Republic of|96.07
   - 家宽|纯净度:4|Korea Republic of|78.62|落地:220.92.176.69
   - 家宽|纯净度:4|Korea Republic of|52.05|落地:222.120.134.151
-  - 家宽|纯净度:6|Korea Republic of|750.58|落地:125.240.231.54
-  - 家宽|纯净度:8|Korea Republic of|515.13|落地:119.196.23.11
   - 家宽|纯净度:14|Korea Republic of|409.94|落地:1.214.177.206
-  - Korea Republic of|94.52
+  - 机房|纯净度:23|Korea Republic of|94.52|落地:211.238.145.82
+  - 家宽|纯净度:1|Korea Republic of|54.07|落地:121.189.172.218
+  - 家宽|纯净度:6|Korea Republic of|96.07|落地:118.34.210.174
+  - 家宽|纯净度:8|Korea Republic of|57.55|落地:211.226.71.219
+  - 家宽|纯净度:8|Korea Republic of|515.13|落地:119.196.23.11
   - 家宽|纯净度:4|Korea Republic of|211.90|落地:39.115.15.14
   - 家宽|纯净度:2|Korea Republic of|469.47|落地:61.253.81.10
-  - 家宽|纯净度:7|Korea Republic of|6.59|落地:220.77.247.211
+  - Korea Republic of|6.59
   - 家宽|纯净度:9|Korea Republic of|148.44|落地:175.214.31.72
   - 家宽|纯净度:4|Korea Republic of|32.93|落地:115.22.223.14
-  - 家宽|纯净度:0|Korea Republic of|89.67|落地:182.214.53.18
-  - 家宽|纯净度:7|Korea Republic of|460.12|落地:222.120.189.180
-  - 家宽|纯净度:4|Korea Republic of|6.78|落地:222.120.20.69
-  - 家宽|纯净度:6|Korea Republic of|81.63|落地:121.189.231.253
+  - Korea Republic of|89.67
+  - 家宽|纯净度:8|Korea Republic of|91.64|落地:182.231.233.37
   - 家宽|纯净度:6|Korea Republic of|65.24|落地:125.134.202.104
   - 家宽|纯净度:8|Korea Republic of|282.80|落地:123.143.79.15
+  - 家宽|纯净度:7|Korea Republic of|460.12|落地:222.120.189.180
+  - 家宽|纯净度:6|Korea Republic of|81.63|落地:121.189.231.253
+  - 家宽|纯净度:7|Korea Republic of|250.18|落地:211.226.234.185
   - 家宽|纯净度:29|Korea Republic of|476.31|落地:118.42.14.84
   - 机房|纯净度:12|Korea Republic of|65.21|落地:118.91.4.55
-  - 家宽|纯净度:4|Korea Republic of|277.59|落地:211.221.198.244
+  - Korea Republic of|277.59
+  - 家宽|纯净度:4|Korea Republic of|92.92|落地:175.200.186.38
   - 家宽|纯净度:7|Korea Republic of|36.48|落地:61.82.162.106
-  - 家宽|纯净度:7|Korea Republic of|250.18|落地:211.226.234.185
   - 家宽|纯净度:2|Korea Republic of|326.81|落地:116.37.252.7
+  - 家宽|纯净度:6|Korea Republic of|137.09|落地:210.97.97.242
   - 家宽|纯净度:24|Korea Republic of|26.65|落地:112.172.121.216
-  - 家宽|纯净度:7|Korea Republic of|459.28|落地:221.165.229.38
   - 家宽|纯净度:4|Korea Republic of|84.18|落地:121.139.54.121
   - 家宽|纯净度:6|Korea Republic of|8.89|落地:211.38.57.123
   - 家宽|纯净度:2|Korea Republic of|727.36|落地:182.210.241.47
-  - Korea Republic of|157.44
-  - 家宽|纯净度:3|Korea Republic of|102.52|落地:39.115.217.57
+  - 家宽|纯净度:9|Korea Republic of|157.44|落地:211.52.54.185
   - 家宽|纯净度:2|Korea Republic of|81.05|落地:59.14.221.13
+  - 家宽|纯净度:3|Korea Republic of|102.52|落地:39.115.217.57
+  - 家宽|纯净度:7|Korea Republic of|459.28|落地:221.165.229.38
+  - Korea Republic of|8.87
   - 家宽|纯净度:0|Korea Republic of|84.19|落地:222.99.195.19
-  - 家宽|纯净度:6|Korea Republic of|8.87|落地:14.47.68.46
-  - 家宽|纯净度:8|Korea Republic of|89.32|落地:175.113.163.59
-  - 家宽|纯净度:73|Korea Republic of|92.79|落地:120.29.134.202
+  - 家宽|纯净度:9|Korea Republic of|95.21|落地:220.122.181.19
   - 家宽|纯净度:4|Korea Republic of|96.77|落地:175.198.234.16
-  - 家宽|纯净度:2|Korea Republic of|15.05|落地:119.193.240.243
   - 家宽|纯净度:3|Korea Republic of|97.03|落地:175.214.151.148
-  - 家宽|纯净度:5|Korea Republic of|93.20|落地:39.122.7.119
+  - 家宽|纯净度:8|Korea Republic of|89.32|落地:175.113.163.59
+  - 家宽|纯净度:2|Korea Republic of|15.05|落地:119.193.240.243
   - 家宽|纯净度:2|Korea Republic of|645.72|落地:121.128.34.199
   - 家宽|纯净度:3|Korea Republic of|191.49|落地:121.158.106.164
+  - 家宽|纯净度:5|Korea Republic of|93.20|落地:39.122.7.119
   - 家宽|纯净度:9|Korea Republic of|75.42|落地:121.178.46.161
   - 家宽|纯净度:7|Korea Republic of|224.63|落地:27.119.130.58
-  - 家宽|纯净度:8|Korea Republic of|85.59|落地:121.184.123.115
-  - Korea Republic of|6.04
-  - 家宽|纯净度:88|Korea Republic of|16.84|落地:220.149.155.115
+  - 家宽|纯净度:0|Korea Republic of|6.04|落地:175.214.216.169
   - 家宽|纯净度:5|Korea Republic of|89.33|落地:221.146.158.56
+  - Korea Republic of|425.79
+  - 家宽|纯净度:88|Korea Republic of|16.84|落地:220.149.155.115
   - 家宽|纯净度:2|Korea Republic of|372.83|落地:119.194.46.117
-  - 家宽|纯净度:10|Korea Republic of|425.79|落地:211.198.239.92
   - 家宽|纯净度:9|Korea Republic of|387.86|落地:125.186.166.172
-  - 家宽|纯净度:5|Korea Republic of|608.06|落地:124.61.46.28
   - 家宽|纯净度:2|Korea Republic of|14.54|落地:115.21.219.185
+  - 家宽|纯净度:5|Korea Republic of|608.06|落地:124.61.46.28
+  - Korea Republic of|85.59
   - 家宽|纯净度:10|Korea Republic of|98.89|落地:14.56.110.143
-  - 家宽|纯净度:3|Korea Republic of|163.43|落地:183.99.109.76
-  - 家宽|纯净度:2|Korea Republic of|40.02|落地:59.30.209.57
+  - Korea Republic of|40.02
   - 家宽|纯净度:0|Korea Republic of|305.66|落地:218.148.117.199
-  - 家宽|纯净度:4|Korea Republic of|782.13|落地:211.195.88.122
+  - 家宽|纯净度:3|Korea Republic of|163.43|落地:183.99.109.76
+  - Korea Republic of|782.13
+  - Korea Republic of|463.07
+  - Korea Republic of|75.47
   - 家宽|纯净度:13|Korea Republic of|76.52|落地:1.247.231.142
-  - 家宽|纯净度:9|Korea Republic of|463.07|落地:121.162.237.104
-  - 家宽|纯净度:5|Korea Republic of|75.47|落地:121.179.249.161
-  - 家宽|纯净度:7|Korea Republic of|345.49|落地:119.195.254.240
+  - Korea Republic of|345.49
+  - 家宽|纯净度:10|Korea Republic of|170.55|落地:118.32.36.189
   - 家宽|纯净度:10|Korea Republic of|316.95|落地:220.76.63.6
   - 家宽|纯净度:4|Korea Republic of|94.56|落地:125.240.229.103
-  - 家宽|纯净度:88|Korea Republic of|95.62|落地:121.129.205.146
   - 家宽|纯净度:2|Korea Republic of|57.67|落地:211.227.80.33
-  - 家宽|纯净度:9|Korea Republic of|33.72|落地:14.42.230.125
+  - 家宽|纯净度:88|Korea Republic of|95.62|落地:121.129.205.146
   - 家宽|纯净度:9|Korea Republic of|47.82|落地:121.177.105.70
+  - Korea Republic of|33.72
   - 机房|纯净度:2|Korea Republic of|417.63|落地:182.172.196.51
   - 家宽|纯净度:4|Korea Republic of|14.88|落地:183.107.123.109
   - 家宽|纯净度:2|Korea Republic of|84.06|落地:180.65.115.60
-  - 家宽|纯净度:3|Korea Republic of|77.66|落地:211.174.64.187
   - 家宽|纯净度:1|Korea Republic of|53.49|落地:112.170.131.60
   - 家宽|纯净度:9|Korea Republic of|75.31|落地:119.193.144.153
+  - 家宽|纯净度:3|Korea Republic of|77.66|落地:211.174.64.187
   - 家宽|纯净度:1|Korea Republic of|334.02|落地:221.144.30.91
+  - 家宽|纯净度:3|Korea Republic of|461.48|落地:59.2.56.216
   - 家宽|纯净度:3|Korea Republic of|789.01|落地:119.195.5.40
+  - 家宽|纯净度:3|Korea Republic of|106.91|落地:220.117.34.243
   - 家宽|纯净度:3|Korea Republic of|101.79|落地:121.133.123.215
-  - Korea Republic of|53.29
   - 家宽|纯净度:2|Korea Republic of|515.53|落地:183.104.127.48
-  - 家宽|纯净度:7|Korea Republic of|75.83|落地:220.70.53.214
+  - 家宽|纯净度:2|Korea Republic of|53.29|落地:122.199.109.234
   - 家宽|纯净度:9|Korea Republic of|404.03|落地:211.227.1.10
+  - 家宽|纯净度:7|Korea Republic of|75.83|落地:220.70.53.214
   - 家宽|纯净度:1|Korea Republic of|184.15|落地:221.145.126.252
+  - 家宽|纯净度:4|Korea Republic of|288.74|落地:220.70.189.77
+  - 家宽|纯净度:2|Korea Republic of|19.09|落地:210.100.131.144
   - 家宽|纯净度:9|Korea Republic of|14.35|落地:14.41.13.198
-  - Korea Republic of|382.05
-  - 家宽|纯净度:4|Korea Republic of|77.96|落地:183.108.199.213
   - 家宽|纯净度:12|Korea Republic of|724.10|落地:211.228.156.105
+  - 家宽|纯净度:4|Korea Republic of|382.05|落地:220.79.186.207
   - 家宽|纯净度:3|Korea Republic of|6.85|落地:210.91.252.27
+  - 家宽|纯净度:4|Korea Republic of|77.96|落地:183.108.199.213
   - 家宽|纯净度:5|Korea Republic of|368.95|落地:61.98.1.121
-  - 家宽|纯净度:1|Korea Republic of|93.98|落地:221.150.82.30
-  - 家宽|纯净度:1|Korea Republic of|360.85|落地:58.127.236.242
+  - Korea Republic of|241.12
+  - 家宽|纯净度:4|Korea Republic of|85.75|落地:222.118.238.58
   - 家宽|纯净度:10|Korea Republic of|95.93|落地:58.77.30.52
   - 家宽|纯净度:6|Korea Republic of|94.84|落地:118.221.75.229
-  - 家宽|纯净度:8|Korea Republic of|42.61|落地:121.140.235.198
-  - 家宽|纯净度:4|Korea Republic of|85.75|落地:222.118.238.58
-  - 家宽|纯净度:7|Korea Republic of|18.57|落地:119.207.13.123
   - 家宽|纯净度:3|Korea Republic of|11.73|落地:124.51.253.126
-  - 家宽|纯净度:2|Korea Republic of|860.68|落地:182.226.193.209
   - 家宽|纯净度:3|Korea Republic of|307.92|落地:175.196.80.118
-  - 机房|纯净度:16|Korea Republic of|83.62|落地:61.96.70.113
+  - 家宽|纯净度:2|Korea Republic of|860.68|落地:182.226.193.209
+  - 家宽|纯净度:8|Korea Republic of|53.43|落地:222.111.8.2
   - 家宽|纯净度:1|Korea Republic of|82.29|落地:59.14.213.103
   - 家宽|纯净度:7|Korea Republic of|87.78|落地:222.112.121.16
-  - Korea Republic of|53.43
-  - 家宽|纯净度:6|Korea Republic of|193.24|落地:112.170.67.228
-  - 家宽|纯净度:2|Korea Republic of|11.17|落地:112.168.206.160
+  - 机房|纯净度:16|Korea Republic of|83.62|落地:61.96.70.113
+  - Korea Republic of|42.61
+  - Korea Republic of|18.57
+  - 家宽|纯净度:4|Korea Republic of|77.22|落地:14.42.21.70
+  - 家宽|纯净度:60|Korea Republic of|80.45|落地:218.150.22.94
+  - 家宽|纯净度:4|Korea Republic of|450.89|落地:211.187.165.75
+  - Korea Republic of|11.17
   - 家宽|纯净度:3|Korea Republic of|738.07|落地:119.197.113.205
-  - 家宽|纯净度:5|Korea Republic of|409.66|落地:118.58.58.238
+  - 家宽|纯净度:6|Korea Republic of|464.36|落地:121.148.48.93
   - 家宽|纯净度:0|Korea Republic of|26.96|落地:27.126.52.47
   - 家宽|纯净度:6|Korea Republic of|440.78|落地:121.152.133.218
   - 家宽|纯净度:1|Korea Republic of|128.35|落地:112.186.53.6
-  - 家宽|纯净度:10|Korea Republic of|91.36|落地:121.170.6.117
-  - 家宽|纯净度:3|Korea Republic of|79.83|落地:59.20.110.131
-  - 家宽|纯净度:80|Korea Republic of|342.03|落地:59.8.32.44
-  - 家宽|纯净度:3|Korea Republic of|10.37|落地:175.195.243.160
+  - 家宽|纯净度:6|Korea Republic of|334.02|落地:118.32.163.131
+  - Korea Republic of|409.66
   - 家宽|纯净度:3|Korea Republic of|93.71|落地:121.144.188.230
-  - 机房|纯净度:53|Korea Republic of|420.87|落地:123.108.169.215
+  - Korea Republic of|10.37
+  - Korea Republic of|342.03
+  - 家宽|纯净度:3|Korea Republic of|79.83|落地:59.20.110.131
   - 家宽|纯净度:7|Korea Republic of|54.95|落地:121.159.128.45
-  - 家宽|纯净度:80|Korea Republic of|606.81|落地:119.205.53.241
-  - Korea Republic of|10.78
-  - 家宽|纯净度:4|Korea Republic of|28.90|落地:175.215.86.26
-  - 家宽|纯净度:3|Korea Republic of|27.19|落地:218.144.70.173
+  - Korea Republic of|606.81
+  - 家宽|纯净度:5|Korea Republic of|10.78|落地:59.19.169.164
   - 家宽|纯净度:3|Korea Republic of|69.92|落地:125.133.234.180
   - 家宽|纯净度:2|Korea Republic of|74.50|落地:59.15.18.145
+  - 家宽|纯净度:4|Korea Republic of|28.90|落地:175.215.86.26
   - 家宽|纯净度:1|Korea Republic of|7.58|落地:121.158.222.27
-  - 家宽|纯净度:6|Korea Republic of|310.90|落地:59.16.161.66
-  - 家宽|纯净度:1|Korea Republic of|694.07|落地:112.72.196.6
-  - 家宽|纯净度:3|Korea Republic of|93.92|落地:118.38.172.121
-  - 家宽|纯净度:14|Korea Republic of|40.85|落地:220.123.192.80
-  - 家宽|纯净度:1|Korea Republic of|100.84|落地:121.149.141.149
-  - 家宽|纯净度:3|Korea Republic of|39.10|落地:118.40.87.213
-  - 家宽|纯净度:3|Korea Republic of|72.77|落地:58.233.2.51
   - 家宽|纯净度:8|Korea Republic of|102.55|落地:211.215.238.48
+  - Korea Republic of|694.07
+  - 家宽|纯净度:3|Korea Republic of|72.77|落地:58.233.2.51
+  - Korea Republic of|100.84
+  - 家宽|纯净度:14|Korea Republic of|40.85|落地:220.123.192.80
+  - 家宽|纯净度:3|Korea Republic of|39.10|落地:118.40.87.213
   - 家宽|纯净度:9|Korea Republic of|243.90|落地:110.13.26.111
-  - 家宽|纯净度:2|Korea Republic of|84.48|落地:211.227.98.170
-  - 家宽|纯净度:8|Korea Republic of|30.68|落地:218.147.96.172
-  - Korea Republic of|67.65
   - 家宽|纯净度:4|Korea Republic of|741.38|落地:116.47.77.14
-  - 家宽|纯净度:4|Korea Republic of|241.71|落地:121.130.138.116
+  - 家宽|纯净度:2|Korea Republic of|84.48|落地:211.227.98.170
+  - 家宽|纯净度:6|Korea Republic of|67.65|落地:121.186.186.97
+  - 家宽|纯净度:3|Korea Republic of|93.92|落地:118.38.172.121
+  - 家宽|纯净度:8|Korea Republic of|30.68|落地:218.147.96.172
   - 家宽|纯净度:9|Korea Republic of|721.17|落地:220.80.129.191
+  - 家宽|纯净度:4|Korea Republic of|241.71|落地:121.130.138.116
+  - 家宽|纯净度:5|Korea Republic of|90.94|落地:221.154.247.168
   - 家宽|纯净度:3|Korea Republic of|11.62|落地:112.186.140.145
   - 家宽|纯净度:1|Korea Republic of|83.51|落地:58.237.142.102
   - 家宽|纯净度:7|Korea Republic of|316.84|落地:182.220.29.125
-  - 家宽|纯净度:7|Korea Republic of|626.88|落地:61.82.111.10
+  - 家宽|纯净度:3|Korea Republic of|431.89|落地:14.33.34.12
   - 家宽|纯净度:4|Korea Republic of|230.67|落地:218.239.169.226
   - 家宽|纯净度:6|Korea Republic of|470.30|落地:39.114.19.174
-  - 家宽|纯净度:12|Korea Republic of|170.80|落地:119.193.158.212
+  - Korea Republic of|7.51
   - 家宽|纯净度:8|Korea Republic of|739.89|落地:220.127.170.69
-  - 家宽|纯净度:14|Korea Republic of|355.91|落地:210.178.21.127
-  - 家宽|纯净度:7|Korea Republic of|490.76|落地:211.213.23.156
+  - Korea Republic of|355.91
   - 家宽|纯净度:2|Korea Republic of|92.89|落地:211.245.214.227
-  - 家宽|纯净度:10|Korea Republic of|8.03|落地:221.166.186.11
+  - 家宽|纯净度:3|Korea Republic of|170.64|落地:121.138.122.21
+  - Korea Republic of|8.03
   - 家宽|纯净度:1|Korea Republic of|86.52|落地:218.55.234.237
-  - Korea Republic of|170.64
+  - Korea Republic of|207.47
+  - Korea Republic of|405.09
+  - Korea Republic of|120.04
   - 家宽|纯净度:3|Korea Republic of|650.11|落地:218.157.81.93
-  - 家宽|纯净度:69|Korea Republic of|743.09|落地:125.135.231.203
-  - 家宽|纯净度:8|Korea Republic of|207.47|落地:121.179.138.104
-  - Korea Republic of|363.59
-  - 家宽|纯净度:1|Korea Republic of|405.09|落地:175.212.246.170
-  - 家宽|纯净度:2|Korea Republic of|120.04|落地:220.123.230.229
   - 家宽|纯净度:2|Korea Republic of|113.56|落地:218.158.82.114
   - Korea Republic of|79.98
-  - 家宽|纯净度:9|Korea Republic of|83.93|落地:1.220.254.251
   - 家宽|纯净度:1|Korea Republic of|93.17|落地:121.128.227.42
+  - 家宽|纯净度:9|Korea Republic of|83.93|落地:1.220.254.251
+  - 家宽|纯净度:4|Korea Republic of|363.59|落地:112.72.196.83
+  - 家宽|纯净度:3|Korea Republic of|74.26|落地:121.160.105.19
   - 家宽|纯净度:10|Korea Republic of|67.01|落地:220.78.29.68
-  - 家宽|纯净度:1|Korea Republic of|412.83|落地:221.153.159.116
-  - 家宽|纯净度:3|Korea Republic of|801.18|落地:175.210.112.44
-  - 家宽|纯净度:7|Korea Republic of|517.54|落地:121.136.82.81
-  - 家宽|纯净度:4|Korea Republic of|95.06|落地:211.63.136.119
   - 家宽|纯净度:6|Korea Republic of|269.13|落地:175.196.204.98
-  - 家宽|纯净度:5|Korea Republic of|112.18|落地:59.28.8.40
+  - 家宽|纯净度:7|Korea Republic of|517.54|落地:121.136.82.81
   - 家宽|纯净度:3|Korea Republic of|95.89|落地:122.38.47.228
-  - 家宽|纯净度:3|Korea Republic of|92.36|落地:182.221.217.73
+  - 家宽|纯净度:5|Korea Republic of|112.18|落地:59.28.8.40
   - 家宽|纯净度:2|Korea Republic of|111.56|落地:218.146.184.184
-  - 家宽|纯净度:5|Korea Republic of|83.89|落地:114.200.89.151
-  - 家宽|纯净度:4|Korea Republic of|94.29|落地:61.41.136.244
-  - 家宽|纯净度:1|Korea Republic of|85.55|落地:122.254.245.109
-  - 家宽|纯净度:6|Korea Republic of|94.01|落地:123.200.94.11
   - 家宽|纯净度:4|Korea Republic of|73.06|落地:27.113.113.177
+  - 家宽|纯净度:3|Korea Republic of|92.36|落地:182.221.217.73
   - 家宽|纯净度:8|Korea Republic of|70.34|落地:218.155.155.250
+  - 家宽|纯净度:5|Korea Republic of|83.89|落地:114.200.89.151
   - 家宽|纯净度:3|Korea Republic of|36.31|落地:211.107.225.137
   - 家宽|纯净度:7|Korea Republic of|38.86|落地:59.30.112.90
+  - 家宽|纯净度:4|Korea Republic of|25.29|落地:222.232.238.186
   - 家宽|纯净度:2|Korea Republic of|719.22|落地:211.51.79.22
-  - 家宽|纯净度:8|Korea Republic of|468.80|落地:1.236.250.72
   - 家宽|纯净度:2|Korea Republic of|814.67|落地:110.15.34.238
-  - 家宽|纯净度:2|Korea Republic of|459.41|落地:118.220.158.237
   - 家宽|纯净度:2|Korea Republic of|454.75|落地:121.136.103.36
-  - 家宽|纯净度:1|Korea Republic of|96.44|落地:203.229.91.15
-  - 家宽|纯净度:6|Korea Republic of|40.43|落地:210.104.184.72
+  - 家宽|纯净度:8|Korea Republic of|468.80|落地:1.236.250.72
+  - Korea Republic of|89.40
   - 家宽|纯净度:9|Korea Republic of|6.45|落地:14.45.12.241
   - 家宽|纯净度:5|Korea Republic of|53.31|落地:39.122.143.188
+  - Korea Republic of|402.09
+  - 家宽|纯净度:1|Korea Republic of|96.44|落地:203.229.91.15
   - 家宽|纯净度:5|Korea Republic of|33.18|落地:14.48.190.61
-  - 家宽|纯净度:1|Korea Republic of|89.40|落地:220.119.155.63
+  - 家宽|纯净度:2|Korea Republic of|459.41|落地:118.220.158.237
+  - 家宽|纯净度:2|Korea Republic of|293.28|落地:175.122.73.80
+  - 家宽|纯净度:1|Korea Republic of|311.91|落地:125.176.199.130
+  - Korea Republic of|80.68
+  - 家宽|纯净度:1|Korea Republic of|213.25|落地:211.44.95.134
+  - 家宽|纯净度:5|Korea Republic of|96.85|落地:218.51.164.218
+  - 家宽|纯净度:8|Korea Republic of|38.52|落地:183.109.169.244
+  - Korea Republic of|73.31
+  - 家宽|纯净度:29|Korea Republic of|50.33|落地:211.216.232.155
+  - 家宽|纯净度:2|Korea Republic of|25.77|落地:118.42.152.221
+  - 家宽|纯净度:6|Korea Republic of|365.24|落地:218.147.95.101
 rules:
 - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
 - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve

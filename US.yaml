@@ -1,5 +1,5 @@
 # 自动生成，请通过拆分脚本更新。
-# 分组：US；节点数：7
+# 分组：US；节点数：6
 dns:
   enable: true
   ipv6: false
@@ -24,7 +24,7 @@ dns:
     geoip: true
     geoip-code: CN
 proxies:
-- name: United States|0.00
+- name: 家宽|纯净度:10|United States|0.00|落地:47.188.79.92
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -56,23 +56,6 @@ proxies:
   - h2
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn584855640.opengw.net:1893?ed=2560
-    headers:
-      Host: snippet.edgeoneai.cc.cd
-- name: United States|348.58
-  type: vless
-  server: singgcdn.singgnetworkcdn.com
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snippet.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn918840683.opengw.net:1245?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 - name: 家宽|纯净度:2|United States|370.98|落地:72.180.86.104
@@ -109,7 +92,7 @@ proxies:
     path: /fdip=sstp://vpn:vpn@vpn996038429.opengw.net:1356?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: United States|110.68
+- name: United States|73.49
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -123,10 +106,10 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn294794153.opengw.net:995?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn800710384.opengw.net:995?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
-- name: 家宽|纯净度:2|United States|179.79|落地:23.93.5.4
+- name: 家宽|纯净度:5|United States|406.55|落地:23.242.215.86
   type: vless
   server: singgcdn.singgnetworkcdn.com
   port: 443
@@ -140,20 +123,19 @@ proxies:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn151297916.opengw.net:1782?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn653088547.opengw.net:1373?ed=2560
     headers:
       Host: snippet.edgeoneai.cc.cd
 proxy-groups:
 - name: vpngate-手动选择
   type: select
   proxies:
-  - United States|0.00
+  - 家宽|纯净度:10|United States|0.00|落地:47.188.79.92
   - 家宽|纯净度:1|United States|86.51|落地:174.87.100.177
-  - United States|348.58
   - 家宽|纯净度:2|United States|370.98|落地:72.180.86.104
   - 家宽|纯净度:0|United States|72.84|落地:198.255.176.69
-  - United States|110.68
-  - 家宽|纯净度:2|United States|179.79|落地:23.93.5.4
+  - United States|73.49
+  - 家宽|纯净度:5|United States|406.55|落地:23.242.215.86
   - DIRECT
 - name: vpngate-自动选择
   type: url-test
@@ -162,13 +144,12 @@ proxy-groups:
   tolerance: 50
   lazy: true
   proxies:
-  - United States|0.00
+  - 家宽|纯净度:10|United States|0.00|落地:47.188.79.92
   - 家宽|纯净度:1|United States|86.51|落地:174.87.100.177
-  - United States|348.58
   - 家宽|纯净度:2|United States|370.98|落地:72.180.86.104
   - 家宽|纯净度:0|United States|72.84|落地:198.255.176.69
-  - United States|110.68
-  - 家宽|纯净度:2|United States|179.79|落地:23.93.5.4
+  - United States|73.49
+  - 家宽|纯净度:5|United States|406.55|落地:23.242.215.86
 rules:
 - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
 - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
