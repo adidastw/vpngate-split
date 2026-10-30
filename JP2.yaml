@@ -1,1392 +1,72 @@
 # 自动生成，请通过拆分脚本更新。
-# 分组：JP2；节点数：248
+# 分组：JP2；节点数：136
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - '*.lan'
+  - '*.local'
+  - '*.localhost'
+  - +.msftconnecttest.com
+  - +.msftncsi.com
+  default-nameserver:
+  - 223.5.5.5
+  - 119.29.29.29
+  nameserver:
+  - 223.5.5.5
+  - 119.29.29.29
+  fallback:
+  - https://1.1.1.1/dns-query
+  - https://8.8.8.8/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
 proxies:
-- name: vpngate | Japan | vpn243982902
+- name: 机房|纯净度:77|Japan|147.35|落地:219.100.37.240
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn243982902.opengw.net:1624?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-158.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn284945165
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:74|Japan|137.63|落地:219.100.37.234
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn284945165.opengw.net:1676?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-64.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-120
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:88|Japan|133.37|落地:219.100.37.245
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-120.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn622613092
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn622613092.opengw.net:1496?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-199
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-199.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn439995456
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn439995456.opengw.net:1312?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-38
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-38.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-163
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-163.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn931771153
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn931771153.opengw.net:1237?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-46
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-46.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn661982
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn661982.opengw.net:7551?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-119
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-119.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-185
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-185.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn106798950
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn106798950.opengw.net:1688?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn543986594
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn543986594.opengw.net:1787?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-136
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-136.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-66
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-66.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn337434621
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn337434621.opengw.net:1262?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-161
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-161.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn815715390
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn815715390.opengw.net:1248?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn366166401
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn366166401.opengw.net:1817?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn290308527
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn290308527.opengw.net:1857?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn298600999
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn298600999.opengw.net:1968?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn460712024
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn460712024.opengw.net:1984?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn898818828
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn898818828.opengw.net:1421?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-129
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-129.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn902930238
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn902930238.opengw.net:1547?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-196
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-196.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn267947139
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn267947139.opengw.net:1663?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn450929320
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn450929320.opengw.net:1940?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn990977082
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn990977082.opengw.net:1492?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn151235625
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn151235625.opengw.net:1959?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-205
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-205.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn611260208
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn611260208.opengw.net:1991?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn603234016
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn603234016.opengw.net:1768?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn113879613
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn113879613.opengw.net:1448?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-55
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-55.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn954148074
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn954148074.opengw.net:1970?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-226
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-226.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn752496678
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn752496678.opengw.net:1320?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn865744309
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn865744309.opengw.net:1418?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn579932260
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn579932260.opengw.net:1674?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn975554023
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn975554023.opengw.net:1901?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn897910605
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn897910605.opengw.net:1290?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn316730005
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn316730005.opengw.net:1235?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn894575434
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn894575434.opengw.net:1636?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn547433109
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn547433109.opengw.net:995?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-228
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-228.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-132
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-132.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-108
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-108.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn863787247
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn863787247.opengw.net:1575?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn555001308
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn555001308.opengw.net:1459?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn868858038
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn868858038.opengw.net:1921?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn294431000
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn294431000.opengw.net:1426?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn458807000
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn458807000.opengw.net:1267?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn540215872
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn540215872.opengw.net:1218?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn258563631
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn258563631.opengw.net:1423?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn257845930
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn257845930.opengw.net:1256?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn246853804
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn246853804.opengw.net:1339?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-202
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-202.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-207
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-207.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn272949870
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn272949870.opengw.net:1355?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn499425001
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn499425001.opengw.net:1356?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn590306888
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn590306888.opengw.net:1886?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn790592499
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn790592499.opengw.net:1866?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn619847817
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn619847817.opengw.net:1867?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn179734162
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn179734162.opengw.net:1441?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-153
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-153.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn299982459
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn299982459.opengw.net:1902?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn330446180
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn330446180.opengw.net:1542?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn750706241
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn750706241.opengw.net:1995?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn190140048
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn190140048.opengw.net:1484?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn398717146
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn398717146.opengw.net:1289?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn411789230
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn411789230.opengw.net:1611?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn840828825
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn840828825.opengw.net:1570?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn137812529
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn137812529.opengw.net:1240?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn527958179
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn527958179.opengw.net:1943?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn579347997
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn579347997.opengw.net:1606?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-123
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-123.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-57
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-57.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn699751090
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn699751090.opengw.net:1315?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-210
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
@@ -1394,1189 +74,33 @@ proxies:
   ws-opts:
     path: /fdip=sstp://vpn:vpn@public-vpn-210.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn148366758
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:83|Japan|256.18|落地:219.100.37.233
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn148366758.opengw.net:1403?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-50.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-236
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:71|Japan|306.26|落地:39.111.4.69
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-236.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn967096196
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn967096196.opengw.net:1402?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | n26
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@n26.opengw.net:1194?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn433650989
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn433650989.opengw.net:1903?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn123938780
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn123938780.opengw.net:1716?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn299419300
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn299419300.opengw.net:1692?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn387705421
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn387705421.opengw.net:1956?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-258
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-258.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn743793210
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn743793210.opengw.net:1521?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn917433523
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn917433523.opengw.net:1818?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-251
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-251.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn879367386
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn879367386.opengw.net:1313?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn714853753
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn714853753.opengw.net:1730?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-234
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-234.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn955056605
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn955056605.opengw.net:1580?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-197
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-197.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-41
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-41.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn469699740
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn469699740.opengw.net:1702?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn732597464
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn732597464.opengw.net:1866?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn142792305
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn142792305.opengw.net:1584?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn894793773
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn894793773.opengw.net:1720?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn763362921
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn763362921.opengw.net:1677?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn544035541
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn544035541.opengw.net:1500?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn440254653
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn440254653.opengw.net:1665?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn764143600
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn764143600.opengw.net:1488?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-201
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-201.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn644041734
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn644041734.opengw.net:1954?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-126
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-126.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-159
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-159.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn285102818
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn285102818.opengw.net:1265?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn196889402
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn196889402.opengw.net:1896?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn395180292
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn395180292.opengw.net:1483?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn595249968
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn595249968.opengw.net:1647?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn355090085
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn355090085.opengw.net:1943?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn390088297
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn390088297.opengw.net:995?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn341413712
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn341413712.opengw.net:1809?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn569190458
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn569190458.opengw.net:1513?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn285317198
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn285317198.opengw.net:1805?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn988896777
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn988896777.opengw.net:1345?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-160
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-160.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn836386663
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn836386663.opengw.net:1920?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn244934866
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn244934866.opengw.net:1586?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn815142268
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn815142268.opengw.net:1599?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn329987705
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn329987705.opengw.net:1483?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn989367060
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn989367060.opengw.net:1531?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn574451610
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn574451610.opengw.net:1781?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn540904816
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn540904816.opengw.net:1812?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn150293860
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn150293860.opengw.net:1621?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn271427166
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn271427166.opengw.net:1652?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-214
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-214.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-231
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-231.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-135
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-135.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-127
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-127.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn424374199
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn424374199.opengw.net:1728?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn767002276
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn767002276.opengw.net:1834?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn165851293
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn165851293.opengw.net:1437?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn456737026
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn456737026.opengw.net:1432?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn259839631
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn259839631.opengw.net:1624?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn413107693
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn413107693.opengw.net:1489?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn876748329
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn876748329.opengw.net:1740?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn780881791
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn780881791.opengw.net:1713?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn582729051
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn582729051.opengw.net:1885?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn951635375
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn951635375.opengw.net:1228?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn501671840
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn501671840.opengw.net:1285?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn201165799
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn201165799.opengw.net:1875?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn532189985
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn532189985.opengw.net:1281?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-105
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-105.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn857476380
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn857476380.opengw.net:1691?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn660985126
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
@@ -2584,900 +108,135 @@ proxies:
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn660985126.opengw.net:1757?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn844364078
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:86|Japan|168.25|落地:219.100.37.236
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn844364078.opengw.net:1448?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-117.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn456065584
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:86|Japan|122.96|落地:219.100.37.236
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn456065584.opengw.net:1511?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-114.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn133692637
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:6|Japan|87.64|落地:122.130.236.188
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn133692637.opengw.net:1451?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn772492023.opengw.net:1269?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-203
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:52|Japan|171.24|落地:219.100.37.238
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-203.opengw.net:443?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-105.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn629840519
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:7|Japan|34.65|落地:182.20.240.27
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn629840519.opengw.net:1946?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn857468917.opengw.net:1535?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-239
+      Host: snippet.edgeoneai.cc.cd
+- name: Japan|182.86
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-239.opengw.net:443?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-48.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn813516587
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:84|Japan|895.48|落地:219.124.192.109
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn813516587.opengw.net:1534?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn520819692.opengw.net:1891?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn122916437
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:2|Japan|90.37|落地:119.173.154.203
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn122916437.opengw.net:1558?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn253095465
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn253095465.opengw.net:1675?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn980675302
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn980675302.opengw.net:1765?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn224057209
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn224057209.opengw.net:1463?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-218
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-218.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn599313834
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn599313834.opengw.net:1807?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn311336380
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn311336380.opengw.net:1617?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn990377400
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn990377400.opengw.net:1835?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn862577791
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn862577791.opengw.net:1921?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn410164537
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn410164537.opengw.net:1713?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn415686454
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn415686454.opengw.net:1535?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn823585109
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn823585109.opengw.net:1730?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn219650000
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn219650000.opengw.net:1254?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn385455528
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn385455528.opengw.net:1813?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn706828378
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn706828378.opengw.net:1468?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-237
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-237.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn397963893
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn397963893.opengw.net:1220?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn986036793
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn986036793.opengw.net:1862?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn571931610
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn571931610.opengw.net:1909?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn959083547
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn959083547.opengw.net:1287?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn291717277
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn291717277.opengw.net:1463?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn953486659
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn953486659.opengw.net:1539?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn601425201
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn601425201.opengw.net:1252?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn890195596
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn890195596.opengw.net:1696?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-109
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-109.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn487233765
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn487233765.opengw.net:1784?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn965182772
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn965182772.opengw.net:1271?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn657011480
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn657011480.opengw.net:1869?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn127203103
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn127203103.opengw.net:1621?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn482501676
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn482501676.opengw.net:1282?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn524454050
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn524454050.opengw.net:1701?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn479254153
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn479254153.opengw.net:1841?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn110060260
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn110060260.opengw.net:1571?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-206
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-206.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn494800987
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn494800987.opengw.net:1390?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn837693710
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn837693710.opengw.net:1460?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn418123746
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn418123746.opengw.net:1255?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn696630723
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn696630723.opengw.net:1651?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn763310803
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn763310803.opengw.net:1791?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn142379586
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn142379586.opengw.net:1228?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn389617472
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn389617472.opengw.net:1861?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn126961380
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn126961380.opengw.net:1840?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn718496341
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn718496341.opengw.net:1625?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn810318235
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn810318235.opengw.net:1628?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn104312461
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn104312461.opengw.net:1947?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn667739311
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
@@ -3485,407 +244,118 @@ proxies:
   ws-opts:
     path: /fdip=sstp://vpn:vpn@vpn667739311.opengw.net:995?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-122
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:88|Japan|154.31|落地:219.100.37.245
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-122.opengw.net:443?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-213.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn481415171
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:86|Japan|192.93|落地:219.100.37.239
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn481415171.opengw.net:1773?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-155.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn294714738
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:77|Japan|160.77|落地:219.100.37.240
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn294714738.opengw.net:1425?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-165.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn209083224
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:86|Japan|288.99|落地:219.100.37.239
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn209083224.opengw.net:1737?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-108.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn557548319
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:86|Japan|169.03|落地:219.100.37.236
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn557548319.opengw.net:1498?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-131.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn365690426
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:74|Japan|179.74|落地:219.100.37.234
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn365690426.opengw.net:1729?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-81.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn809619030
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:77|Japan|147.03|落地:219.100.37.240
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn809619030.opengw.net:1391?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn456295025
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn456295025.opengw.net:1411?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn802766799
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn802766799.opengw.net:1648?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn256949185
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn256949185.opengw.net:1282?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn951998946
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn951998946.opengw.net:1691?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn152852888
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn152852888.opengw.net:1613?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn120829364
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn120829364.opengw.net:1206?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn149232523
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn149232523.opengw.net:1270?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn683041786
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn683041786.opengw.net:1382?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn649283282
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn649283282.opengw.net:1792?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-241
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-241.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn579014654
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn579014654.opengw.net:1411?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn382249672
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn382249672.opengw.net:1956?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn530288126
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn530288126.opengw.net:1508?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn712305797
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn712305797.opengw.net:1554?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn791904315
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn791904315.opengw.net:1715?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn156555613
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn156555613.opengw.net:1386?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | public-vpn-147
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  tls: true
-  udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
@@ -3893,581 +363,2270 @@ proxies:
   ws-opts:
     path: /fdip=sstp://vpn:vpn@public-vpn-147.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn458309789
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:86|Japan|160.51|落地:219.100.37.236
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn458309789.opengw.net:1645?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-82.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn164183936
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:3|Japan|937.67|落地:118.156.137.250
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn164183936.opengw.net:1321?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn313136357.opengw.net:1253?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn613132412
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:38|Japan|76.52|落地:60.32.80.192
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn613132412.opengw.net:1892?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn543986594.opengw.net:1787?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn355703068
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:77|Japan|157.84|落地:219.100.37.243
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn355703068.opengw.net:1752?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-203.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn407145859
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:1|Japan|267.69|落地:60.83.74.55
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn407145859.opengw.net:1743?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn533408413.opengw.net:1235?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn126377407
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:2|Japan|784.40|落地:106.177.117.146
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn126377407.opengw.net:1958?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn989367060.opengw.net:1531?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn666000527
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:86|Japan|233.63|落地:219.100.37.239
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn666000527.opengw.net:1737?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-124.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn662317581
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:48|Japan|247.73|落地:219.100.37.244
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn662317581.opengw.net:1817?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-241.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn890958399
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:2|Japan|87.20|落地:60.64.144.10
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn890958399.opengw.net:1728?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn440717374.opengw.net:1833?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn670095336
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:77|Japan|219.36|落地:219.100.37.240
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn670095336.opengw.net:1622?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-160.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn936535400
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:48|Japan|169.90|落地:219.100.37.244
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn936535400.opengw.net:1893?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-187.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn237073649
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:86|Japan|224.98|落地:219.100.37.236
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn237073649.opengw.net:1507?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-94.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn911251431
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:8|Japan|962.03|落地:219.28.138.78
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn911251431.opengw.net:1661?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn475501975.opengw.net:1462?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn375226827
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:52|Japan|249.37|落地:219.100.37.238
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn375226827.opengw.net:1353?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-109.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn165600618
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:83|Japan|225.84|落地:219.100.37.233
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn165600618.opengw.net:1392?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-43.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn554457656
+      Host: snippet.edgeoneai.cc.cd
+- name: Japan|612.62
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn554457656.opengw.net:1794?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn681398325.opengw.net:1256?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn549204742
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:74|Japan|218.25|落地:219.100.37.234
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn549204742.opengw.net:1538?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-88.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn895129723
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:83|Japan|217.02|落地:219.100.37.233
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn895129723.opengw.net:1574?ed=2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-47.opengw.net:443?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vpngate | Japan | vpn349129831
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:0|Japan|91.09|落地:126.208.66.140
   type: vless
-  server: saas.sin.fan
+  server: singgcdn.singgnetworkcdn.com
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   network: ws
   tls: true
   udp: false
-  sni: snip.edgeoneai.cc.cd
+  sni: snippet.edgeoneai.cc.cd
   fingerprint: chrome
   alpn:
   - h3
   - h2
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn349129831.opengw.net:1801?ed=2560
+    path: /fdip=sstp://vpn:vpn@vpn692840237.opengw.net:1402?ed=2560
     headers:
-      Host: snip.edgeoneai.cc.cd
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:53|Japan|323.87|落地:125.196.144.134
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn960273320.opengw.net:1571?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:88|Japan|173.92|落地:219.100.37.245
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-202.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Japan|553.19
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn837693710.opengw.net:1460?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:8|Japan|71.61|落地:111.99.110.28
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn865744309.opengw.net:1418?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:5|Japan|446.53|落地:153.200.187.212
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn350126322.opengw.net:1865?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:77|Japan|164.74|落地:219.100.37.246
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-217.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:83|Japan|212.04|落地:219.100.37.233
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-42.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:7|Japan|312.51|落地:133.218.25.217
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn578034962.opengw.net:1702?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:86|Japan|212.04|落地:219.100.37.239
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-139.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:4|Japan|151.08|落地:133.218.182.132
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn587057222.opengw.net:1817?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:48|Japan|200.88|落地:219.100.37.244
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-227.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:7|Japan|597.43|落地:126.126.143.105
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn446279611.opengw.net:1779?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:52|Japan|262.15|落地:219.100.37.238
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-65.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:6|Japan|555.73|落地:14.132.109.178
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn267143494.opengw.net:1512?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:77|Japan|267.50|落地:219.100.37.246
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-192.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:0|Japan|547.66|落地:111.97.197.128
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn933256250.opengw.net:1448?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:3|Japan|262.20|落地:124.100.138.216
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn622613092.opengw.net:1496?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:4|Japan|96.95|落地:14.101.82.147
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn460276134.opengw.net:1234?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:86|Japan|193.70|落地:219.100.37.239
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-129.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:48|Japan|197.90|落地:219.100.37.244
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-239.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:77|Japan|174.22|落地:219.100.37.243
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-232.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:7|Japan|9.70|落地:210.147.152.187
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn857992852.opengw.net:1993?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:77|Japan|172.88|落地:219.100.37.240
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-161.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Japan|304.36
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-38.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Japan|248.44
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-183.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:74|Japan|263.64|落地:219.100.37.234
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-98.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Japan|202.59
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-55.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:4|Japan|298.19|落地:180.196.214.72
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn610990463.opengw.net:1400?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:77|Japan|180.25|落地:219.100.37.240
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-145.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:88|Japan|162.06|落地:219.100.37.245
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-253.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:86|Japan|167.56|落地:219.100.37.239
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-157.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:52|Japan|158.73|落地:219.100.37.238
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-136.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:86|Japan|137.47|落地:219.100.37.239
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-144.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:1|Japan|83.82|落地:126.26.255.26
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn223114256.opengw.net:1210?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:74|Japan|139.74|落地:219.100.37.234
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-74.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:77|Japan|132.84|落地:219.100.37.240
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-151.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:0|Japan|801.29|落地:27.94.235.236
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn569909532.opengw.net:1500?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Japan|256.40
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-259.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:8|Japan|41.34|落地:60.103.49.124
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn509708696.opengw.net:1884?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Japan|249.19
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-238.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:4|Japan|94.20|落地:106.159.21.238
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn493957786.opengw.net:1205?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Japan|132.95
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-162.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:9|Japan|519.79|落地:110.67.241.211
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn657706801.opengw.net:1236?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:77|Japan|195.23|落地:219.100.37.240
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-154.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:83|Japan|193.08|落地:219.100.37.233
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-45.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:1|Japan|115.97|落地:114.190.203.143
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn590702886.opengw.net:1250?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:3|Japan|82.22|落地:124.140.128.139
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn550964176.opengw.net:995?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:77|Japan|197.55|落地:219.100.37.243
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-224.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:2|Japan|81.36|落地:180.198.167.80
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn975550277.opengw.net:1514?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:8|Japan|91.73|落地:221.245.60.19
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn365840110.opengw.net:1599?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:77|Japan|133.93|落地:219.100.37.246
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-209.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:77|Japan|171.72|落地:219.100.37.246
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-220.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:77|Japan|154.89|落地:219.100.37.246
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-201.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:77|Japan|532.75|落地:219.100.37.240
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-142.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:1|Japan|356.55|落地:126.84.178.209
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn763460553.opengw.net:1545?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:77|Japan|183.16|落地:219.100.37.246
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-216.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:52|Japan|245.75|落地:219.100.37.238
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-67.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:48|Japan|236.16|落地:219.100.37.244
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-236.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:9|Japan|22.37|落地:180.25.205.209
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn556067728.opengw.net:1510?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Japan|71.49
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn218350102.opengw.net:1577?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:88|Japan|158.67|落地:219.100.37.245
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-214.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:66|Japan|482.81|落地:218.228.192.151
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn137812529.opengw.net:1240?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:7|Japan|47.81|落地:220.146.184.71
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn764770053.opengw.net:1524?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:4|Japan|888.12|落地:90.149.132.107
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn221936620.opengw.net:1555?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:4|Japan|139.23|落地:60.74.55.47
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn593514964.opengw.net:1935?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:88|Japan|170.81|落地:219.100.37.245
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-219.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:7|Japan|41.95|落地:122.132.220.88
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn977972287.opengw.net:1497?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:0|Japan|89.36|落地:221.116.12.5
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn514414017.opengw.net:1903?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:74|Japan|216.65|落地:219.100.37.234
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-0.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:5|Japan|546.90|落地:126.76.96.220
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn652870061.opengw.net:1780?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:0|Japan|339.00|落地:131.147.15.145
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn390172289.opengw.net:1217?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:23|Japan|30.13|落地:180.94.254.30
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn150323799.opengw.net:1468?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:88|Japan|140.99|落地:219.100.37.245
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-199.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:2|Japan|676.49|落地:210.239.229.12
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn329138938.opengw.net:1854?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:8|Japan|803.71|落地:121.103.218.83
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn748539514.opengw.net:1555?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:36|Japan|576.47|落地:60.71.4.56
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn176878445.opengw.net:1393?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:7|Japan|179.44|落地:153.151.191.71
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn262831086.opengw.net:1510?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:48|Japan|138.97|落地:219.100.37.244
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-242.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:77|Japan|241.10|落地:219.100.37.243
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-184.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:77|Japan|154.23|落地:219.100.37.243
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-235.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Japan|89.44
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn345560266.opengw.net:1440?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:4|Japan|94.32|落地:126.79.239.4
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn375750715.opengw.net:1541?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Japan|133.85
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-135.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:9|Japan|115.21|落地:119.170.233.13
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn402080134.opengw.net:1486?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:21|Japan|27.20|落地:210.167.90.113
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn311836490.opengw.net:1679?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:52|Japan|409.30|落地:219.100.37.238
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-85.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:77|Japan|222.15|落地:219.100.37.240
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-163.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:52|Japan|204.24|落地:219.100.37.238
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-130.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:3|Japan|260.03|落地:116.64.86.146
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn350782353.opengw.net:1962?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:7|Japan|285.26|落地:121.107.70.142
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn996428382.opengw.net:1747?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:74|Japan|184.72|落地:219.100.37.234
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-75.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:9|Japan|308.08|落地:180.53.83.39
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn475858293.opengw.net:1512?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:2|Japan|92.75|落地:126.28.184.236
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn873220267.opengw.net:1890?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:6|Japan|168.35|落地:126.111.169.128
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn349212081.opengw.net:1656?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 机房|纯净度:48|Japan|764.29|落地:219.100.37.244
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-182.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: 家宽|纯净度:2|Japan|86.94|落地:220.100.20.175
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn159457490.opengw.net:1477?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
+- name: Japan|303.86
+  type: vless
+  server: singgcdn.singgnetworkcdn.com
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  network: ws
+  tls: true
+  udp: false
+  sni: snippet.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - h3
+  - h2
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-84.opengw.net:443?ed=2560
+    headers:
+      Host: snippet.edgeoneai.cc.cd
 proxy-groups:
 - name: vpngate-手动选择
   type: select
   proxies:
-  - vpngate | Japan | vpn243982902
-  - vpngate | Japan | vpn284945165
-  - vpngate | Japan | public-vpn-120
-  - vpngate | Japan | vpn622613092
-  - vpngate | Japan | public-vpn-199
-  - vpngate | Japan | vpn439995456
-  - vpngate | Japan | public-vpn-38
-  - vpngate | Japan | public-vpn-163
-  - vpngate | Japan | vpn931771153
-  - vpngate | Japan | public-vpn-46
-  - vpngate | Japan | vpn661982
-  - vpngate | Japan | public-vpn-119
-  - vpngate | Japan | public-vpn-185
-  - vpngate | Japan | vpn106798950
-  - vpngate | Japan | vpn543986594
-  - vpngate | Japan | public-vpn-136
-  - vpngate | Japan | public-vpn-66
-  - vpngate | Japan | vpn337434621
-  - vpngate | Japan | public-vpn-161
-  - vpngate | Japan | vpn815715390
-  - vpngate | Japan | vpn366166401
-  - vpngate | Japan | vpn290308527
-  - vpngate | Japan | vpn298600999
-  - vpngate | Japan | vpn460712024
-  - vpngate | Japan | vpn898818828
-  - vpngate | Japan | public-vpn-129
-  - vpngate | Japan | vpn902930238
-  - vpngate | Japan | public-vpn-196
-  - vpngate | Japan | vpn267947139
-  - vpngate | Japan | vpn450929320
-  - vpngate | Japan | vpn990977082
-  - vpngate | Japan | vpn151235625
-  - vpngate | Japan | public-vpn-205
-  - vpngate | Japan | vpn611260208
-  - vpngate | Japan | vpn603234016
-  - vpngate | Japan | vpn113879613
-  - vpngate | Japan | public-vpn-55
-  - vpngate | Japan | vpn954148074
-  - vpngate | Japan | public-vpn-226
-  - vpngate | Japan | vpn752496678
-  - vpngate | Japan | vpn865744309
-  - vpngate | Japan | vpn579932260
-  - vpngate | Japan | vpn975554023
-  - vpngate | Japan | vpn897910605
-  - vpngate | Japan | vpn316730005
-  - vpngate | Japan | vpn894575434
-  - vpngate | Japan | vpn547433109
-  - vpngate | Japan | public-vpn-228
-  - vpngate | Japan | public-vpn-132
-  - vpngate | Japan | public-vpn-108
-  - vpngate | Japan | vpn863787247
-  - vpngate | Japan | vpn555001308
-  - vpngate | Japan | vpn868858038
-  - vpngate | Japan | vpn294431000
-  - vpngate | Japan | vpn458807000
-  - vpngate | Japan | vpn540215872
-  - vpngate | Japan | vpn258563631
-  - vpngate | Japan | vpn257845930
-  - vpngate | Japan | vpn246853804
-  - vpngate | Japan | public-vpn-202
-  - vpngate | Japan | public-vpn-207
-  - vpngate | Japan | vpn272949870
-  - vpngate | Japan | vpn499425001
-  - vpngate | Japan | vpn590306888
-  - vpngate | Japan | vpn790592499
-  - vpngate | Japan | vpn619847817
-  - vpngate | Japan | vpn179734162
-  - vpngate | Japan | public-vpn-153
-  - vpngate | Japan | vpn299982459
-  - vpngate | Japan | vpn330446180
-  - vpngate | Japan | vpn750706241
-  - vpngate | Japan | vpn190140048
-  - vpngate | Japan | vpn398717146
-  - vpngate | Japan | vpn411789230
-  - vpngate | Japan | vpn840828825
-  - vpngate | Japan | vpn137812529
-  - vpngate | Japan | vpn527958179
-  - vpngate | Japan | vpn579347997
-  - vpngate | Japan | public-vpn-123
-  - vpngate | Japan | public-vpn-57
-  - vpngate | Japan | vpn699751090
-  - vpngate | Japan | public-vpn-210
-  - vpngate | Japan | vpn148366758
-  - vpngate | Japan | public-vpn-236
-  - vpngate | Japan | vpn967096196
-  - vpngate | Japan | n26
-  - vpngate | Japan | vpn433650989
-  - vpngate | Japan | vpn123938780
-  - vpngate | Japan | vpn299419300
-  - vpngate | Japan | vpn387705421
-  - vpngate | Japan | public-vpn-258
-  - vpngate | Japan | vpn743793210
-  - vpngate | Japan | vpn917433523
-  - vpngate | Japan | public-vpn-251
-  - vpngate | Japan | vpn879367386
-  - vpngate | Japan | vpn714853753
-  - vpngate | Japan | public-vpn-234
-  - vpngate | Japan | vpn955056605
-  - vpngate | Japan | public-vpn-197
-  - vpngate | Japan | public-vpn-41
-  - vpngate | Japan | vpn469699740
-  - vpngate | Japan | vpn732597464
-  - vpngate | Japan | vpn142792305
-  - vpngate | Japan | vpn894793773
-  - vpngate | Japan | vpn763362921
-  - vpngate | Japan | vpn544035541
-  - vpngate | Japan | vpn440254653
-  - vpngate | Japan | vpn764143600
-  - vpngate | Japan | public-vpn-201
-  - vpngate | Japan | vpn644041734
-  - vpngate | Japan | public-vpn-126
-  - vpngate | Japan | public-vpn-159
-  - vpngate | Japan | vpn285102818
-  - vpngate | Japan | vpn196889402
-  - vpngate | Japan | vpn395180292
-  - vpngate | Japan | vpn595249968
-  - vpngate | Japan | vpn355090085
-  - vpngate | Japan | vpn390088297
-  - vpngate | Japan | vpn341413712
-  - vpngate | Japan | vpn569190458
-  - vpngate | Japan | vpn285317198
-  - vpngate | Japan | vpn988896777
-  - vpngate | Japan | public-vpn-160
-  - vpngate | Japan | vpn836386663
-  - vpngate | Japan | vpn244934866
-  - vpngate | Japan | vpn815142268
-  - vpngate | Japan | vpn329987705
-  - vpngate | Japan | vpn989367060
-  - vpngate | Japan | vpn574451610
-  - vpngate | Japan | vpn540904816
-  - vpngate | Japan | vpn150293860
-  - vpngate | Japan | vpn271427166
-  - vpngate | Japan | public-vpn-214
-  - vpngate | Japan | public-vpn-231
-  - vpngate | Japan | public-vpn-135
-  - vpngate | Japan | public-vpn-127
-  - vpngate | Japan | vpn424374199
-  - vpngate | Japan | vpn767002276
-  - vpngate | Japan | vpn165851293
-  - vpngate | Japan | vpn456737026
-  - vpngate | Japan | vpn259839631
-  - vpngate | Japan | vpn413107693
-  - vpngate | Japan | vpn876748329
-  - vpngate | Japan | vpn780881791
-  - vpngate | Japan | vpn582729051
-  - vpngate | Japan | vpn951635375
-  - vpngate | Japan | vpn501671840
-  - vpngate | Japan | vpn201165799
-  - vpngate | Japan | vpn532189985
-  - vpngate | Japan | public-vpn-105
-  - vpngate | Japan | vpn857476380
-  - vpngate | Japan | vpn660985126
-  - vpngate | Japan | vpn844364078
-  - vpngate | Japan | vpn456065584
-  - vpngate | Japan | vpn133692637
-  - vpngate | Japan | public-vpn-203
-  - vpngate | Japan | vpn629840519
-  - vpngate | Japan | public-vpn-239
-  - vpngate | Japan | vpn813516587
-  - vpngate | Japan | vpn122916437
-  - vpngate | Japan | vpn253095465
-  - vpngate | Japan | vpn980675302
-  - vpngate | Japan | vpn224057209
-  - vpngate | Japan | public-vpn-218
-  - vpngate | Japan | vpn599313834
-  - vpngate | Japan | vpn311336380
-  - vpngate | Japan | vpn990377400
-  - vpngate | Japan | vpn862577791
-  - vpngate | Japan | vpn410164537
-  - vpngate | Japan | vpn415686454
-  - vpngate | Japan | vpn823585109
-  - vpngate | Japan | vpn219650000
-  - vpngate | Japan | vpn385455528
-  - vpngate | Japan | vpn706828378
-  - vpngate | Japan | public-vpn-237
-  - vpngate | Japan | vpn397963893
-  - vpngate | Japan | vpn986036793
-  - vpngate | Japan | vpn571931610
-  - vpngate | Japan | vpn959083547
-  - vpngate | Japan | vpn291717277
-  - vpngate | Japan | vpn953486659
-  - vpngate | Japan | vpn601425201
-  - vpngate | Japan | vpn890195596
-  - vpngate | Japan | public-vpn-109
-  - vpngate | Japan | vpn487233765
-  - vpngate | Japan | vpn965182772
-  - vpngate | Japan | vpn657011480
-  - vpngate | Japan | vpn127203103
-  - vpngate | Japan | vpn482501676
-  - vpngate | Japan | vpn524454050
-  - vpngate | Japan | vpn479254153
-  - vpngate | Japan | vpn110060260
-  - vpngate | Japan | public-vpn-206
-  - vpngate | Japan | vpn494800987
-  - vpngate | Japan | vpn837693710
-  - vpngate | Japan | vpn418123746
-  - vpngate | Japan | vpn696630723
-  - vpngate | Japan | vpn763310803
-  - vpngate | Japan | vpn142379586
-  - vpngate | Japan | vpn389617472
-  - vpngate | Japan | vpn126961380
-  - vpngate | Japan | vpn718496341
-  - vpngate | Japan | vpn810318235
-  - vpngate | Japan | vpn104312461
-  - vpngate | Japan | vpn667739311
-  - vpngate | Japan | public-vpn-122
-  - vpngate | Japan | vpn481415171
-  - vpngate | Japan | vpn294714738
-  - vpngate | Japan | vpn209083224
-  - vpngate | Japan | vpn557548319
-  - vpngate | Japan | vpn365690426
-  - vpngate | Japan | vpn809619030
-  - vpngate | Japan | vpn456295025
-  - vpngate | Japan | vpn802766799
-  - vpngate | Japan | vpn256949185
-  - vpngate | Japan | vpn951998946
-  - vpngate | Japan | vpn152852888
-  - vpngate | Japan | vpn120829364
-  - vpngate | Japan | vpn149232523
-  - vpngate | Japan | vpn683041786
-  - vpngate | Japan | vpn649283282
-  - vpngate | Japan | public-vpn-241
-  - vpngate | Japan | vpn579014654
-  - vpngate | Japan | vpn382249672
-  - vpngate | Japan | vpn530288126
-  - vpngate | Japan | vpn712305797
-  - vpngate | Japan | vpn791904315
-  - vpngate | Japan | vpn156555613
-  - vpngate | Japan | public-vpn-147
-  - vpngate | Japan | vpn458309789
-  - vpngate | Japan | vpn164183936
-  - vpngate | Japan | vpn613132412
-  - vpngate | Japan | vpn355703068
-  - vpngate | Japan | vpn407145859
-  - vpngate | Japan | vpn126377407
-  - vpngate | Japan | vpn666000527
-  - vpngate | Japan | vpn662317581
-  - vpngate | Japan | vpn890958399
-  - vpngate | Japan | vpn670095336
-  - vpngate | Japan | vpn936535400
-  - vpngate | Japan | vpn237073649
-  - vpngate | Japan | vpn911251431
-  - vpngate | Japan | vpn375226827
-  - vpngate | Japan | vpn165600618
-  - vpngate | Japan | vpn554457656
-  - vpngate | Japan | vpn549204742
-  - vpngate | Japan | vpn895129723
-  - vpngate | Japan | vpn349129831
+  - 机房|纯净度:77|Japan|147.35|落地:219.100.37.240
+  - 机房|纯净度:74|Japan|137.63|落地:219.100.37.234
+  - 机房|纯净度:88|Japan|133.37|落地:219.100.37.245
+  - 机房|纯净度:83|Japan|256.18|落地:219.100.37.233
+  - 家宽|纯净度:71|Japan|306.26|落地:39.111.4.69
+  - 机房|纯净度:86|Japan|168.25|落地:219.100.37.236
+  - 机房|纯净度:86|Japan|122.96|落地:219.100.37.236
+  - 家宽|纯净度:6|Japan|87.64|落地:122.130.236.188
+  - 机房|纯净度:52|Japan|171.24|落地:219.100.37.238
+  - 家宽|纯净度:7|Japan|34.65|落地:182.20.240.27
+  - Japan|182.86
+  - 家宽|纯净度:84|Japan|895.48|落地:219.124.192.109
+  - 家宽|纯净度:2|Japan|90.37|落地:119.173.154.203
+  - 机房|纯净度:88|Japan|154.31|落地:219.100.37.245
+  - 机房|纯净度:86|Japan|192.93|落地:219.100.37.239
+  - 机房|纯净度:77|Japan|160.77|落地:219.100.37.240
+  - 机房|纯净度:86|Japan|288.99|落地:219.100.37.239
+  - 机房|纯净度:86|Japan|169.03|落地:219.100.37.236
+  - 机房|纯净度:74|Japan|179.74|落地:219.100.37.234
+  - 机房|纯净度:77|Japan|147.03|落地:219.100.37.240
+  - 机房|纯净度:86|Japan|160.51|落地:219.100.37.236
+  - 家宽|纯净度:3|Japan|937.67|落地:118.156.137.250
+  - 家宽|纯净度:38|Japan|76.52|落地:60.32.80.192
+  - 机房|纯净度:77|Japan|157.84|落地:219.100.37.243
+  - 家宽|纯净度:1|Japan|267.69|落地:60.83.74.55
+  - 家宽|纯净度:2|Japan|784.40|落地:106.177.117.146
+  - 机房|纯净度:86|Japan|233.63|落地:219.100.37.239
+  - 机房|纯净度:48|Japan|247.73|落地:219.100.37.244
+  - 家宽|纯净度:2|Japan|87.20|落地:60.64.144.10
+  - 机房|纯净度:77|Japan|219.36|落地:219.100.37.240
+  - 机房|纯净度:48|Japan|169.90|落地:219.100.37.244
+  - 机房|纯净度:86|Japan|224.98|落地:219.100.37.236
+  - 家宽|纯净度:8|Japan|962.03|落地:219.28.138.78
+  - 机房|纯净度:52|Japan|249.37|落地:219.100.37.238
+  - 机房|纯净度:83|Japan|225.84|落地:219.100.37.233
+  - Japan|612.62
+  - 机房|纯净度:74|Japan|218.25|落地:219.100.37.234
+  - 机房|纯净度:83|Japan|217.02|落地:219.100.37.233
+  - 家宽|纯净度:0|Japan|91.09|落地:126.208.66.140
+  - 家宽|纯净度:53|Japan|323.87|落地:125.196.144.134
+  - 机房|纯净度:88|Japan|173.92|落地:219.100.37.245
+  - Japan|553.19
+  - 家宽|纯净度:8|Japan|71.61|落地:111.99.110.28
+  - 家宽|纯净度:5|Japan|446.53|落地:153.200.187.212
+  - 机房|纯净度:77|Japan|164.74|落地:219.100.37.246
+  - 机房|纯净度:83|Japan|212.04|落地:219.100.37.233
+  - 家宽|纯净度:7|Japan|312.51|落地:133.218.25.217
+  - 机房|纯净度:86|Japan|212.04|落地:219.100.37.239
+  - 家宽|纯净度:4|Japan|151.08|落地:133.218.182.132
+  - 机房|纯净度:48|Japan|200.88|落地:219.100.37.244
+  - 家宽|纯净度:7|Japan|597.43|落地:126.126.143.105
+  - 机房|纯净度:52|Japan|262.15|落地:219.100.37.238
+  - 家宽|纯净度:6|Japan|555.73|落地:14.132.109.178
+  - 机房|纯净度:77|Japan|267.50|落地:219.100.37.246
+  - 家宽|纯净度:0|Japan|547.66|落地:111.97.197.128
+  - 家宽|纯净度:3|Japan|262.20|落地:124.100.138.216
+  - 家宽|纯净度:4|Japan|96.95|落地:14.101.82.147
+  - 机房|纯净度:86|Japan|193.70|落地:219.100.37.239
+  - 机房|纯净度:48|Japan|197.90|落地:219.100.37.244
+  - 机房|纯净度:77|Japan|174.22|落地:219.100.37.243
+  - 家宽|纯净度:7|Japan|9.70|落地:210.147.152.187
+  - 机房|纯净度:77|Japan|172.88|落地:219.100.37.240
+  - Japan|304.36
+  - Japan|248.44
+  - 机房|纯净度:74|Japan|263.64|落地:219.100.37.234
+  - Japan|202.59
+  - 家宽|纯净度:4|Japan|298.19|落地:180.196.214.72
+  - 机房|纯净度:77|Japan|180.25|落地:219.100.37.240
+  - 机房|纯净度:88|Japan|162.06|落地:219.100.37.245
+  - 机房|纯净度:86|Japan|167.56|落地:219.100.37.239
+  - 机房|纯净度:52|Japan|158.73|落地:219.100.37.238
+  - 机房|纯净度:86|Japan|137.47|落地:219.100.37.239
+  - 家宽|纯净度:1|Japan|83.82|落地:126.26.255.26
+  - 机房|纯净度:74|Japan|139.74|落地:219.100.37.234
+  - 机房|纯净度:77|Japan|132.84|落地:219.100.37.240
+  - 家宽|纯净度:0|Japan|801.29|落地:27.94.235.236
+  - Japan|256.40
+  - 家宽|纯净度:8|Japan|41.34|落地:60.103.49.124
+  - Japan|249.19
+  - 家宽|纯净度:4|Japan|94.20|落地:106.159.21.238
+  - Japan|132.95
+  - 家宽|纯净度:9|Japan|519.79|落地:110.67.241.211
+  - 机房|纯净度:77|Japan|195.23|落地:219.100.37.240
+  - 机房|纯净度:83|Japan|193.08|落地:219.100.37.233
+  - 家宽|纯净度:1|Japan|115.97|落地:114.190.203.143
+  - 家宽|纯净度:3|Japan|82.22|落地:124.140.128.139
+  - 机房|纯净度:77|Japan|197.55|落地:219.100.37.243
+  - 家宽|纯净度:2|Japan|81.36|落地:180.198.167.80
+  - 家宽|纯净度:8|Japan|91.73|落地:221.245.60.19
+  - 机房|纯净度:77|Japan|133.93|落地:219.100.37.246
+  - 机房|纯净度:77|Japan|171.72|落地:219.100.37.246
+  - 机房|纯净度:77|Japan|154.89|落地:219.100.37.246
+  - 机房|纯净度:77|Japan|532.75|落地:219.100.37.240
+  - 家宽|纯净度:1|Japan|356.55|落地:126.84.178.209
+  - 机房|纯净度:77|Japan|183.16|落地:219.100.37.246
+  - 机房|纯净度:52|Japan|245.75|落地:219.100.37.238
+  - 机房|纯净度:48|Japan|236.16|落地:219.100.37.244
+  - 家宽|纯净度:9|Japan|22.37|落地:180.25.205.209
+  - Japan|71.49
+  - 机房|纯净度:88|Japan|158.67|落地:219.100.37.245
+  - 家宽|纯净度:66|Japan|482.81|落地:218.228.192.151
+  - 家宽|纯净度:7|Japan|47.81|落地:220.146.184.71
+  - 家宽|纯净度:4|Japan|888.12|落地:90.149.132.107
+  - 家宽|纯净度:4|Japan|139.23|落地:60.74.55.47
+  - 机房|纯净度:88|Japan|170.81|落地:219.100.37.245
+  - 家宽|纯净度:7|Japan|41.95|落地:122.132.220.88
+  - 家宽|纯净度:0|Japan|89.36|落地:221.116.12.5
+  - 机房|纯净度:74|Japan|216.65|落地:219.100.37.234
+  - 家宽|纯净度:5|Japan|546.90|落地:126.76.96.220
+  - 家宽|纯净度:0|Japan|339.00|落地:131.147.15.145
+  - 机房|纯净度:23|Japan|30.13|落地:180.94.254.30
+  - 机房|纯净度:88|Japan|140.99|落地:219.100.37.245
+  - 家宽|纯净度:2|Japan|676.49|落地:210.239.229.12
+  - 家宽|纯净度:8|Japan|803.71|落地:121.103.218.83
+  - 家宽|纯净度:36|Japan|576.47|落地:60.71.4.56
+  - 家宽|纯净度:7|Japan|179.44|落地:153.151.191.71
+  - 机房|纯净度:48|Japan|138.97|落地:219.100.37.244
+  - 机房|纯净度:77|Japan|241.10|落地:219.100.37.243
+  - 机房|纯净度:77|Japan|154.23|落地:219.100.37.243
+  - Japan|89.44
+  - 家宽|纯净度:4|Japan|94.32|落地:126.79.239.4
+  - Japan|133.85
+  - 家宽|纯净度:9|Japan|115.21|落地:119.170.233.13
+  - 机房|纯净度:21|Japan|27.20|落地:210.167.90.113
+  - 机房|纯净度:52|Japan|409.30|落地:219.100.37.238
+  - 机房|纯净度:77|Japan|222.15|落地:219.100.37.240
+  - 机房|纯净度:52|Japan|204.24|落地:219.100.37.238
+  - 家宽|纯净度:3|Japan|260.03|落地:116.64.86.146
+  - 家宽|纯净度:7|Japan|285.26|落地:121.107.70.142
+  - 机房|纯净度:74|Japan|184.72|落地:219.100.37.234
+  - 家宽|纯净度:9|Japan|308.08|落地:180.53.83.39
+  - 家宽|纯净度:2|Japan|92.75|落地:126.28.184.236
+  - 家宽|纯净度:6|Japan|168.35|落地:126.111.169.128
+  - 机房|纯净度:48|Japan|764.29|落地:219.100.37.244
+  - 家宽|纯净度:2|Japan|86.94|落地:220.100.20.175
+  - Japan|303.86
+  - DIRECT
+- name: vpngate-自动选择
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 机房|纯净度:77|Japan|147.35|落地:219.100.37.240
+  - 机房|纯净度:74|Japan|137.63|落地:219.100.37.234
+  - 机房|纯净度:88|Japan|133.37|落地:219.100.37.245
+  - 机房|纯净度:83|Japan|256.18|落地:219.100.37.233
+  - 家宽|纯净度:71|Japan|306.26|落地:39.111.4.69
+  - 机房|纯净度:86|Japan|168.25|落地:219.100.37.236
+  - 机房|纯净度:86|Japan|122.96|落地:219.100.37.236
+  - 家宽|纯净度:6|Japan|87.64|落地:122.130.236.188
+  - 机房|纯净度:52|Japan|171.24|落地:219.100.37.238
+  - 家宽|纯净度:7|Japan|34.65|落地:182.20.240.27
+  - Japan|182.86
+  - 家宽|纯净度:84|Japan|895.48|落地:219.124.192.109
+  - 家宽|纯净度:2|Japan|90.37|落地:119.173.154.203
+  - 机房|纯净度:88|Japan|154.31|落地:219.100.37.245
+  - 机房|纯净度:86|Japan|192.93|落地:219.100.37.239
+  - 机房|纯净度:77|Japan|160.77|落地:219.100.37.240
+  - 机房|纯净度:86|Japan|288.99|落地:219.100.37.239
+  - 机房|纯净度:86|Japan|169.03|落地:219.100.37.236
+  - 机房|纯净度:74|Japan|179.74|落地:219.100.37.234
+  - 机房|纯净度:77|Japan|147.03|落地:219.100.37.240
+  - 机房|纯净度:86|Japan|160.51|落地:219.100.37.236
+  - 家宽|纯净度:3|Japan|937.67|落地:118.156.137.250
+  - 家宽|纯净度:38|Japan|76.52|落地:60.32.80.192
+  - 机房|纯净度:77|Japan|157.84|落地:219.100.37.243
+  - 家宽|纯净度:1|Japan|267.69|落地:60.83.74.55
+  - 家宽|纯净度:2|Japan|784.40|落地:106.177.117.146
+  - 机房|纯净度:86|Japan|233.63|落地:219.100.37.239
+  - 机房|纯净度:48|Japan|247.73|落地:219.100.37.244
+  - 家宽|纯净度:2|Japan|87.20|落地:60.64.144.10
+  - 机房|纯净度:77|Japan|219.36|落地:219.100.37.240
+  - 机房|纯净度:48|Japan|169.90|落地:219.100.37.244
+  - 机房|纯净度:86|Japan|224.98|落地:219.100.37.236
+  - 家宽|纯净度:8|Japan|962.03|落地:219.28.138.78
+  - 机房|纯净度:52|Japan|249.37|落地:219.100.37.238
+  - 机房|纯净度:83|Japan|225.84|落地:219.100.37.233
+  - Japan|612.62
+  - 机房|纯净度:74|Japan|218.25|落地:219.100.37.234
+  - 机房|纯净度:83|Japan|217.02|落地:219.100.37.233
+  - 家宽|纯净度:0|Japan|91.09|落地:126.208.66.140
+  - 家宽|纯净度:53|Japan|323.87|落地:125.196.144.134
+  - 机房|纯净度:88|Japan|173.92|落地:219.100.37.245
+  - Japan|553.19
+  - 家宽|纯净度:8|Japan|71.61|落地:111.99.110.28
+  - 家宽|纯净度:5|Japan|446.53|落地:153.200.187.212
+  - 机房|纯净度:77|Japan|164.74|落地:219.100.37.246
+  - 机房|纯净度:83|Japan|212.04|落地:219.100.37.233
+  - 家宽|纯净度:7|Japan|312.51|落地:133.218.25.217
+  - 机房|纯净度:86|Japan|212.04|落地:219.100.37.239
+  - 家宽|纯净度:4|Japan|151.08|落地:133.218.182.132
+  - 机房|纯净度:48|Japan|200.88|落地:219.100.37.244
+  - 家宽|纯净度:7|Japan|597.43|落地:126.126.143.105
+  - 机房|纯净度:52|Japan|262.15|落地:219.100.37.238
+  - 家宽|纯净度:6|Japan|555.73|落地:14.132.109.178
+  - 机房|纯净度:77|Japan|267.50|落地:219.100.37.246
+  - 家宽|纯净度:0|Japan|547.66|落地:111.97.197.128
+  - 家宽|纯净度:3|Japan|262.20|落地:124.100.138.216
+  - 家宽|纯净度:4|Japan|96.95|落地:14.101.82.147
+  - 机房|纯净度:86|Japan|193.70|落地:219.100.37.239
+  - 机房|纯净度:48|Japan|197.90|落地:219.100.37.244
+  - 机房|纯净度:77|Japan|174.22|落地:219.100.37.243
+  - 家宽|纯净度:7|Japan|9.70|落地:210.147.152.187
+  - 机房|纯净度:77|Japan|172.88|落地:219.100.37.240
+  - Japan|304.36
+  - Japan|248.44
+  - 机房|纯净度:74|Japan|263.64|落地:219.100.37.234
+  - Japan|202.59
+  - 家宽|纯净度:4|Japan|298.19|落地:180.196.214.72
+  - 机房|纯净度:77|Japan|180.25|落地:219.100.37.240
+  - 机房|纯净度:88|Japan|162.06|落地:219.100.37.245
+  - 机房|纯净度:86|Japan|167.56|落地:219.100.37.239
+  - 机房|纯净度:52|Japan|158.73|落地:219.100.37.238
+  - 机房|纯净度:86|Japan|137.47|落地:219.100.37.239
+  - 家宽|纯净度:1|Japan|83.82|落地:126.26.255.26
+  - 机房|纯净度:74|Japan|139.74|落地:219.100.37.234
+  - 机房|纯净度:77|Japan|132.84|落地:219.100.37.240
+  - 家宽|纯净度:0|Japan|801.29|落地:27.94.235.236
+  - Japan|256.40
+  - 家宽|纯净度:8|Japan|41.34|落地:60.103.49.124
+  - Japan|249.19
+  - 家宽|纯净度:4|Japan|94.20|落地:106.159.21.238
+  - Japan|132.95
+  - 家宽|纯净度:9|Japan|519.79|落地:110.67.241.211
+  - 机房|纯净度:77|Japan|195.23|落地:219.100.37.240
+  - 机房|纯净度:83|Japan|193.08|落地:219.100.37.233
+  - 家宽|纯净度:1|Japan|115.97|落地:114.190.203.143
+  - 家宽|纯净度:3|Japan|82.22|落地:124.140.128.139
+  - 机房|纯净度:77|Japan|197.55|落地:219.100.37.243
+  - 家宽|纯净度:2|Japan|81.36|落地:180.198.167.80
+  - 家宽|纯净度:8|Japan|91.73|落地:221.245.60.19
+  - 机房|纯净度:77|Japan|133.93|落地:219.100.37.246
+  - 机房|纯净度:77|Japan|171.72|落地:219.100.37.246
+  - 机房|纯净度:77|Japan|154.89|落地:219.100.37.246
+  - 机房|纯净度:77|Japan|532.75|落地:219.100.37.240
+  - 家宽|纯净度:1|Japan|356.55|落地:126.84.178.209
+  - 机房|纯净度:77|Japan|183.16|落地:219.100.37.246
+  - 机房|纯净度:52|Japan|245.75|落地:219.100.37.238
+  - 机房|纯净度:48|Japan|236.16|落地:219.100.37.244
+  - 家宽|纯净度:9|Japan|22.37|落地:180.25.205.209
+  - Japan|71.49
+  - 机房|纯净度:88|Japan|158.67|落地:219.100.37.245
+  - 家宽|纯净度:66|Japan|482.81|落地:218.228.192.151
+  - 家宽|纯净度:7|Japan|47.81|落地:220.146.184.71
+  - 家宽|纯净度:4|Japan|888.12|落地:90.149.132.107
+  - 家宽|纯净度:4|Japan|139.23|落地:60.74.55.47
+  - 机房|纯净度:88|Japan|170.81|落地:219.100.37.245
+  - 家宽|纯净度:7|Japan|41.95|落地:122.132.220.88
+  - 家宽|纯净度:0|Japan|89.36|落地:221.116.12.5
+  - 机房|纯净度:74|Japan|216.65|落地:219.100.37.234
+  - 家宽|纯净度:5|Japan|546.90|落地:126.76.96.220
+  - 家宽|纯净度:0|Japan|339.00|落地:131.147.15.145
+  - 机房|纯净度:23|Japan|30.13|落地:180.94.254.30
+  - 机房|纯净度:88|Japan|140.99|落地:219.100.37.245
+  - 家宽|纯净度:2|Japan|676.49|落地:210.239.229.12
+  - 家宽|纯净度:8|Japan|803.71|落地:121.103.218.83
+  - 家宽|纯净度:36|Japan|576.47|落地:60.71.4.56
+  - 家宽|纯净度:7|Japan|179.44|落地:153.151.191.71
+  - 机房|纯净度:48|Japan|138.97|落地:219.100.37.244
+  - 机房|纯净度:77|Japan|241.10|落地:219.100.37.243
+  - 机房|纯净度:77|Japan|154.23|落地:219.100.37.243
+  - Japan|89.44
+  - 家宽|纯净度:4|Japan|94.32|落地:126.79.239.4
+  - Japan|133.85
+  - 家宽|纯净度:9|Japan|115.21|落地:119.170.233.13
+  - 机房|纯净度:21|Japan|27.20|落地:210.167.90.113
+  - 机房|纯净度:52|Japan|409.30|落地:219.100.37.238
+  - 机房|纯净度:77|Japan|222.15|落地:219.100.37.240
+  - 机房|纯净度:52|Japan|204.24|落地:219.100.37.238
+  - 家宽|纯净度:3|Japan|260.03|落地:116.64.86.146
+  - 家宽|纯净度:7|Japan|285.26|落地:121.107.70.142
+  - 机房|纯净度:74|Japan|184.72|落地:219.100.37.234
+  - 家宽|纯净度:9|Japan|308.08|落地:180.53.83.39
+  - 家宽|纯净度:2|Japan|92.75|落地:126.28.184.236
+  - 家宽|纯净度:6|Japan|168.35|落地:126.111.169.128
+  - 机房|纯净度:48|Japan|764.29|落地:219.100.37.244
+  - 家宽|纯净度:2|Japan|86.94|落地:220.100.20.175
+  - Japan|303.86
 rules:
+- IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+- IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+- IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+- IP-CIDR,169.254.0.0/16,DIRECT,no-resolve
+- IP-CIDR,224.0.0.0/4,DIRECT,no-resolve
+- GEOIP,CN,DIRECT
 - MATCH,vpngate-手动选择
